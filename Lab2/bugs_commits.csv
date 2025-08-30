@@ -1,0 +1,1170 @@
+Hash,Message,Hashes of parents,Is a merge commit?,List of modified files
+eb1fbdffa1fc8c1ae2015be97fac2168b6a89173,"[svn] added better test.py file for jinja1 and fixed python translator bug
+
+--HG--
+branch : trunk",['92244526496090c38587169c62cab80423e1af32'],False,"['jinja\\translators\\python.py', 'test.py']"
+6002ce9940326ffc1254a4db175d8b401be31207,"[svn] this should fix #218
+
+--HG--
+branch : trunk",['dbc945d6965ccc4a86fe83fbdc43888eff677ac9'],False,['jinja\\translators\\python.py']
+9e3f80503cecccfd557acbd29d39cefbd15e918b,"[svn] fix for misunderstood problem for #217
+
+--HG--
+branch : trunk",['8b8b4b70b0d3a5049ba6a08bbe9e1e442e552c67'],False,['jinja\\translators\\python.py']
+4e0cd087ccef6576d721fde3d2ae6a157f0dc6cd,"[svn] fixed empty block bug
+
+--HG--
+branch : trunk",['422934c893b54ee67dacf8219045050f2f9cc790'],False,"['jinja\\translators\\python.py', 'jinja\\utils.py']"
+ff20385691f529385ddfc50aa7e56b53732fe14e,"[svn] fix typo and try out svn hook
+
+--HG--
+branch : trunk",['3d057194b33b5e6c6bc81d34bb6822ae87f6e07d'],False,['www\\index.tmpl']
+c1e3040890aceff048d50110935e00e5ac4f79f6,"[svn] fixed jinja inheritance bug and improved unittests
+
+--HG--
+branch : trunk",['7ec81af7297f55081d2cb4721394ce1aedb0799b'],False,"['jinja\\datastructure.py', 'jinja\\translators\\python.py', 'tests\\conftest.py', 'tests\\runtime\\templates\\c.html', 'tests\\test_filters.py', 'tests\\test_inheritance.py', 'tests\\test_macros.py', 'tests\\test_tests.py']"
+8ff24c43d785784bf8c759d2bf062c20144fad6d,"[svn] implemented compile time error handling
+
+--HG--
+branch : trunk",['9baa5bae6aff648957ab6c31de3f3fb7f7f99664'],False,"['jinja\\datastructure.py', 'jinja\\exceptions.py', 'jinja\\loaders.py', 'jinja\\parser.py', 'jinja\\utils.py', 'tests\\runtime\\exception.py', None]"
+6219da0a6e2d31c87e03e7558e561f8f569c1e05,"[svn] fixed small jinja bug regarding includes and added release announcement to webpage.
+
+--HG--
+branch : trunk",['36121f511ebca954dccafc6d59733498423556bb'],False,['jinja\\translators\\python.py']
+6d84be35ec6c17309a7c43f2dca20dd1bcc7d311,"[svn] and delete jinja 1.0 again. python2.3 bug
+
+--HG--
+branch : trunk",['6219da0a6e2d31c87e03e7558e561f8f569c1e05'],False,['jinja\\lexer.py']
+7e07670b35d5001a4aba5a83806527fdd7703366,"[svn] fixed SuperBlock bug
+
+--HG--
+branch : trunk",['df7cd976f5e8ec6ad34ce1784b1762bfc5b57790'],False,['jinja\\datastructure.py']
+954153b3f2715affa961e740defac9d5618eb4b5,"[svn] fixed beewee's bug
+
+--HG--
+branch : trunk",['a22a53d1da486f155e843630583c2a76453aae14'],False,['jinja\\filters.py']
+6fa4ae708fd165ae189709bdf104746216eed98d,"[svn] fixed bug in CacheDict for python2.4
+
+--HG--
+branch : trunk",['954153b3f2715affa961e740defac9d5618eb4b5'],False,['jinja\\utils.py']
+2da479f43bfd6d1baccab43dbd8c94511e0cea84,"[svn] fixed bug in replace filter discovered by ronny
+
+--HG--
+branch : trunk",['6fa4ae708fd165ae189709bdf104746216eed98d'],False,['jinja\\filters.py']
+1f57be8842ec281317ee74cca8f5573d5dfa03a0,"[svn] fixed jinja old-style class bug
+
+--HG--
+branch : trunk",['40cf47cac490692ce6961922082b00c51dfa2b99'],False,['jinja\\environment.py']
+ca80b455949be91a8774de1b4e791b8c087dd89d,"[svn] fixed severe jinja memcaching bug
+
+--HG--
+branch : trunk",['02d81f74b5f22e932917c23785d22170db2f67e3'],False,"['jinja\\loaders.py', 'jinja\\translators\\python.py']"
+72ae44813e65af42e3c62e2c77716244f7bdda05,"[svn] fixed another bug in the same darn file
+
+--HG--
+branch : trunk",['ca80b455949be91a8774de1b4e791b8c087dd89d'],False,['jinja\\loaders.py']
+215809146c04657188b3617359e330b4fbd2bb12,"[svn] various updates i haven't checked in so far (see the diff of the changelog) and fixed critical bug reported by Alexey Melchakov
+
+--HG--
+branch : trunk",['d459e275befdc1ae30289982f619f3d966e3149a'],False,"['CHANGES', 'docs\\generate.py', 'docs\\src\\contextenv.txt', 'docs\\src\\designerdoc.txt', 'docs\\src\\frameworks.txt', 'docs\\src\\i18n.txt', 'docs\\src\\index.txt', 'jinja\\datastructure.py', 'jinja\\environment.py', 'jinja\\filters.py', 'jinja\\lexer.py', 'jinja\\parser.py', 'jinja\\plugin.py', 'jinja\\tests.py', 'jinja\\translators\\python.py', 'setup.py', 'tests\\test_filters.py', 'tests\\test_ifcondition.py', 'tests\\test_inheritance.py', 'tests\\test_lexer.py']"
+40b02fac1adfd665373b2a61616f0d222dcf7739,"[svn] Fix refleaks and API usage in C module. Will need to test the changes though.
+
+--HG--
+branch : trunk",['4a51133f4cab87a27be0ee34d9c8f2bc5bbb47a6'],False,['jinja\\_speedups.c']
+ce513f26683207df996de03b4208d7d40186962c,"[svn] fixed bug reported by stefan ebner and implemented cache_keys to fix problems with multiple laoders caching in the same folder
+
+--HG--
+branch : trunk",['4c9cfccf24a1bc954cd9ddc25f5637efaaf43110'],False,"['CHANGES', 'THANKS', 'docs\\src\\loaders.txt', 'jinja\\datastructure.py', 'jinja\\loaders.py', 'tests\\test_i18n.py']"
+fbcd38c463caf7ad040c34ef0327037399cfe1a2,"[svn] fixed bug with caching into same directory if the searchpath was relative
+
+--HG--
+branch : trunk",['ce513f26683207df996de03b4208d7d40186962c'],False,['jinja\\loaders.py']
+25d3322c4bdb8389b91a2c340b455ca2dfa8dcf3,"[svn] Fix a few typos.
+
+--HG--
+branch : trunk",['8030a17e68c530e58c967db9a1d85e8f78f1bd86'],False,['docs\\src\\inheritance.txt']
+d34b4e3e949d28874497ffa778e60e17f9d0576a,"[svn] fixed bug in iteration over none
+
+--HG--
+branch : trunk",['4d844a1c2e11d10980fd643efa1da618a0825977'],False,['jinja\\datastructure.py']
+720e55b2962d6c3b5f34d77e8b4b537156692b2e,"[svn] fixed a lexer error reporting issue
+
+--HG--
+branch : trunk",['63ca7211e991542c35c6d18d90fdaff57c6fea11'],False,['jinja\\lexer.py']
+4f4c246d423c5969512a19bad5ed1036a3121329,"[svn] Fix _debugger module.
+
+--HG--
+branch : trunk",['a17a65a5c012327d2bfff047aa3dddfb730fadd6'],False,['jinja\\_debugger.c']
+378d0224af38709abc37439a82b1f8a619edead8,"[svn] Fix 2.4ism.
+
+--HG--
+branch : trunk",['4f4c246d423c5969512a19bad5ed1036a3121329'],False,['jinja\\_debugger.c']
+56e20cf5c11339459e0ad5d528243504478ed4e2,"[svn] fixed bug in the template streaming interface
+
+--HG--
+branch : trunk",['69ddc5854d8a61dcbfb0bae1121ff855cb8bcf75'],False,['jinja\\datastructure.py']
+fde3ff2642e199acccebe314cf4b2316f896c30e,"[svn] Fix a rst hyperlink.
+
+--HG--
+branch : trunk",['653dd646dfa20c34211d3ada9ca87c07668d595d'],False,['jinja\\filters.py']
+306971d9a2ffe509292d51d760b4e637d86ac41a,"fixed bug in jinja doc
+
+--HG--
+branch : trunk",['e71966dbca54a47376b6fb7527a7c691273dfdee'],False,['docs\\src\\scopes.txt']
+f5f8ffc8a269d50d709468382132a624f0cea7bc,"fixed bug in jinja filter parser (why the fuck was there no unittest for that??) XXX: add unittest
+
+--HG--
+branch : trunk",['306971d9a2ffe509292d51d760b4e637d86ac41a'],False,['jinja\\parser.py']
+005e17028187145444859b20897215100e6557d8,"fixed error in error message (-.-)
+
+--HG--
+branch : trunk",['41883c24a5c03f75ff602401003f603b738759fa'],False,"['jinja\\parser.py', 'jinja\\utils.py']"
+dc991b1995e0c18f1b200efef8faa0009fd03c42,"Fix docstring typo.
+
+--HG--
+branch : trunk",['d4eb18f74dc8d951a9a862c8b81d93dadafeac7e'],False,['jinja\\environment.py']
+a39502eb7173de930e20bf7e03f1bbe548844b18,"switch away from svn, fix #283.
+
+--HG--
+branch : trunk",['0167c1f02e360866b730cfb56eea4a03f2df77a4'],False,"['jinja\\__init__.py', 'jinja\\loaders.py', 'setup.cfg']"
+8efb7ee366250ccc993788aa237b7df53152c58f,"fix #284
+
+--HG--
+branch : trunk",['df2e34d1d9c70624a71305a47e999db61e117251'],False,"['jinja\\_speedups.c', 'jinja\\parser.py']"
+256c304dae84fb172235fe28c9b36bdbbe487faa,"fixed bug in parser, untagged 1.2 (ready for retagging)
+
+--HG--
+branch : trunk",['df020982e607b10822537f3e6c78bc26d9c97e47'],False,"['.hgtags', 'jinja\\parser.py']"
+523bf4cdafc8a571efca64f8c5ae061026af3fce,"fixed awkward lexer bug in jinja that was yet untested
+
+--HG--
+branch : trunk",['256c304dae84fb172235fe28c9b36bdbbe487faa'],False,"['jdebug.py', 'jinja\\lexer.py', 'jinja\\parser.py', 'tests\\test_lexer.py']"
+8edbe4959f1c4b0d0daa5cf94dd534723578a1a6,"fixed one bug with blocks, one to go
+
+--HG--
+branch : trunk",['d436e98474eadda52076d5c4316c0797ea45e136'],False,"['jinja2\\compiler.py', 'jinja2\\environment.py', 'jinja2\\filters.py', 'jinja2\\optimizer.py', 'jinja2\\parser.py', 'jinja2\\runtime.py', 'jinja2\\utils.py', 'test.py']"
+7a52df8ec3d2987076181171b3227ab56154ab10,"fixed a small bug
+
+--HG--
+branch : trunk",['7fb3897bad74128d0e4e233682bcb00c739e13ff'],False,['jinja2\\compiler.py']
+449167d991baeac11f6985166c8b21b83737ac87,"fixed a bug in the compiler
+
+--HG--
+branch : trunk",['d4c64f76c04206dd4e4bc48242080d3738e35758'],False,"['bench.py', 'jinja2\\compiler.py', 'jinja2\\environment.py', 'jinja2\\utils.py', 'test.py']"
+157531b5c5c9422fd9d5d9d699a2c1b966fcfc54,"more docs and fixed bug in parser that assigned lineno for ExprStmt wrong
+
+--HG--
+branch : trunk",['3c8b7ade4a8fed525154db87be6f9bbdceac1f6a'],False,"['docs\\conf.py', 'docs\\jinjaext.py', 'docs\\templates.rst', 'jinja2\\filters.py', 'jinja2\\parser.py']"
+316157de45e2b1772de81baa6addfb28a969f9c7,"fixed another python2.4 bug
+
+--HG--
+branch : trunk",['371cb149968a54e05dfcce3f55f26c917ff62062'],False,"['docs\\templates.rst', 'jinja2\\utils.py']"
+1ae4fdfc72d5a88957ccc16a9ad134a8c7e5423d,"added python2.4 workaround for unicode.join bug
+
+--HG--
+branch : trunk",['8b085c350aa62e0ea860a3823d1688a0f6d49313'],False,['jinja2\\runtime.py']
+c851607cef48bb257b570df9d70f6673174dea63,"reactivated syntax error translations
+
+--HG--
+branch : trunk",['115de2e349a010eb66af8d175222414149c4ca7c'],False,['jinja2\\environment.py']
+c0725640ebee04fdd7061aad54f73613500714ee,"fixed a bug with filtered loops
+
+--HG--
+branch : trunk",['6b44952f776c2122c5bc9545a48db472cf3b8c57'],False,"['docs\\_templates\\genindex.html', 'jinja2\\parser.py']"
+b217886ffccc69797ab89ec09f9fdae2967b8bb5,"added author information and fixed small off-by-one bug
+
+--HG--
+branch : trunk",['9a1e33c2ef323ed38a9fdd0cbb175d4304e08e1f'],False,"['AUTHORS', 'jinja2\\_speedups.c']"
+47a506fb8d6c654bcc1e66ea0eac6e38f0890ea6,"Fixed bug that caused ""for item in seq if expr"" to fail if the loop is not accessing loop
+
+--HG--
+branch : trunk",['a5204a49756e56af090d50c4abc8c347494a275c'],False,['jinja2\\compiler.py']
+ac61b24fedc24dafdb7e9b304d12898aa2e789da,"Fix two typos.
+
+--HG--
+branch : trunk",['fb2e38a806a3e076a8712bd69de1004f0b51e2bb'],False,"['docs\\api.rst', 'docs\\templates.rst']"
+27069d73ec6cc9bbf6ce55f6ef48bafa825508d8,"fixed a bug in extension handling
+
+--HG--
+branch : trunk",['d1ff858a7afd41a5cc166820f70c96f08b6d2136'],False,"['docs\\cache_extension.py', 'docs\\extensions.rst', 'jinja2-debug.py', 'jinja2\\compiler.py', 'jinja2\\environment.py', 'jinja2\\ext.py']"
+1f627ffab40658ba8b7435de1b20fac6e56fce73,"fixed error reporting for filtered statements
+
+--HG--
+branch : trunk",['83fbc0fa7e5230d112683e63841550c637bd707c'],False,['jinja2\\compiler.py']
+151418ddce1ed22ae864b94d7d04a82ebabd6741,"fixed error on static subscribe aliasing if the subscription argument was a variable
+
+--HG--
+branch : trunk",['02e090509e3662da0b005075abe73bf5c511801b'],False,['jinja2\\compiler.py']
+e9411b41890c0882236918297fb2e77a3bf60cd1,"fixed bug with parameter parsing
+
+--HG--
+branch : trunk",['151418ddce1ed22ae864b94d7d04a82ebabd6741'],False,"['jinja2\\compiler.py', 'jinja2\\parser.py', 'jinja2\\runtime.py']"
+a7f016dae24342b40a274def90f43758d79ca2bf,"added disclaimer to rwbench and fixed error reporting for one of the four Output cases
+
+--HG--
+branch : trunk",['5d2733fce81b22fb53e63c7ea00154c63dae541f'],False,"['examples\\rwbench\\rwbench.py', 'jinja2\\compiler.py']"
+e2244881cd7f57c4436095e54675fb1da9446d8d,"improved thread safety of the LRUCache and fixed a bug in for loops
+
+--HG--
+branch : trunk",['8a1d27f1c66633c0f6f4fd885f6ac76e926ddfc3'],False,"['docs\\switching.rst', 'docs\\tricks.rst', 'jinja2\\compiler.py', 'jinja2\\utils.py']"
+24db451787fb3b966bca0eaf3ad4205fa8aaabf6,"added unittest for the latest fixed bug
+
+--HG--
+branch : trunk",['e2244881cd7f57c4436095e54675fb1da9446d8d'],False,['tests\\test_forloop.py']
+6df604ec215d56fac8ed40d1c2aab715817f2474,"more unittests and updated documentation for extensions.  Fixed bug in optimizer that caused blocks to be optimized away under some circumstances.
+
+--HG--
+branch : trunk",['3da9031b99b12ad829e8307b893279347ad04c2c'],False,"['docs\\api.rst', 'docs\\extensions.rst', 'jinja2\\compiler.py', 'jinja2\\nodes.py', 'jinja2\\optimizer.py', 'jinja2\\runtime.py', 'tests\\test_ext.py', 'tests\\test_forloop.py', 'tests\\test_ifcondition.py', 'tests\\test_inheritance.py', 'tests\\test_security.py']"
+9cf9591ef788fcca284d9fc1b4997e2cb888e7f0,"fixed bug with static unicode strings and auto escaping
+
+--HG--
+branch : trunk",['4e6f9a254910ce3524ea9a1c9bfb6feb54716f01'],False,"['jinja2\\compiler.py', 'jinja2\\environment.py', 'jinja2\\filters.py', 'jinja2\\lexer.py', 'jinja2\\nodes.py', 'tests\\test_ext.py', 'tests\\test_filters.py', 'tests\\test_security.py']"
+5411ce72a75c0f70b7bd8df5c685ae084d6b7b44,"even more tests, fixed severe bug with autoescaping.
+
+--HG--
+branch : trunk",['fd31049f62b962181e0413b59bed9529b9df7b2b'],False,"['docs\\api.rst', 'docs\\faq.rst', 'docs\\jinjaext.py', 'examples\\rwbench\\rwbench.py', 'jinja2\\_speedups.c', 'jinja2\\compiler.py', 'jinja2\\environment.py', 'jinja2\\filters.py', 'jinja2\\nodes.py', 'jinja2\\parser.py', 'jinja2\\runtime.py', 'tests\\loaderres\\templates\\broken.html', 'tests\\loaderres\\templates\\syntaxerror.html', 'tests\\test_debug.py', 'tests\\test_security.py']"
+61a5a24a51db49073a122ad9959d0950befa2e9d,"fixed a bug in error reporting and some small documentation updates
+
+--HG--
+branch : trunk",['0c4f75795f9be2970982dddb59ca10dba7ca1cbd'],False,"['docs\\api.rst', 'docs\\faq.rst', 'docs\\intro.rst', 'docs\\templates.rst', 'jinja2\\loaders.py', 'jinja2\\parser.py', 'jinja2\\runtime.py']"
+f4e1fb4d3608b3699f1bbe2f4210dd1b96bbe573,"small fix for Python 2.4
+
+--HG--
+branch : trunk",['3e39651630b111940900022727e581607174d375'],False,"['jinja2\\_speedups.c', 'setup.py']"
+4388cd059d73c810dabc2cce0366c21ce2669d5c,"fixed error in wordwrap filter
+
+--HG--
+branch : trunk",['58f351da2c71873e5c41b98a871ac1af78624f65'],False,['jinja2\\filters.py']
+e3290ea9f3c2579a819c9c4016beb50f20a41cad,"Fixed a broken unittest and fixed a bug that required multiple tests to be put into parentheses for chaning.
+
+--HG--
+branch : trunk",['6dc6f291eb46352de4df7dfaf10fb14369dc7fb1'],False,"['jinja2\\parser.py', 'tests\\test_syntax.py', 'tests\\test_various.py']"
+547d0b6cd9ad4e21b817bb80f27950bb9977ed33,"Fixed a bug with the loop context of a for loop if the iterator passed has a volatile `__len__` like the listreverseiterator.  `else` in inline if-expressions is optional now.
+
+--HG--
+branch : trunk",['c670b1189f26f41f71eaa42c1270d8f1f1c1682e'],False,"['CHANGES', 'jinja2\\compiler.py', 'jinja2\\nodes.py', 'jinja2\\parser.py', 'jinja2\\runtime.py', 'tests\\test_forloop.py', 'tests\\test_syntax.py']"
+f1c940f13389f23e1d7ddba6bc70c3ad379d2840,"fixed attribute lookup error with old style classes
+
+--HG--
+branch : trunk",['e3290ea9f3c2579a819c9c4016beb50f20a41cad'],False,['jinja2\\environment.py']
+665bfb8c95926ae92bd37cb58b783dcdf6855d2c,"Fixed bug in finalizer
+
+--HG--
+branch : trunk",['80b789545b6deef3a9eacf514a1babfecfbfe517'],False,"['CHANGES', 'jinja2\\compiler.py', 'tests\\test_various.py']"
+ff53c785742f9221d0e71286f1a8f663505cda41,"fixed a bug with nested loops and the special loop variable.
+
+H: Enter commit message.  Lines beginning with 'HG:' are removed.
+
+--HG--
+branch : trunk",['9a0078d5730e98330788add74cc7fe66b7122ecb'],False,"['CHANGES', 'jinja2\\compiler.py', 'tests\\test_forloop.py']"
+833a3b5d3a1da1ddc3ceabf0ea286ae870e8c41f,"Fixed a bug in the compiler that caused problems with loop not being referenced in an outer scoped.  (Introduced in the last checkin)
+
+--HG--
+branch : trunk",['ff53c785742f9221d0e71286f1a8f663505cda41'],False,"['jinja2\\compiler.py', 'tests\\test_forloop.py']"
+4720c36a96012c22c648e15de9f33bbed1c49ef8,"Fixed a bug in the i18n extension that caused the explicit pluralization block to look up the wrong variable.
+
+--HG--
+branch : trunk",['ce677103251180952bd27b6559e3fc87e6b518b7'],False,"['CHANGES', 'jinja2\\ext.py', 'tests\\test_i18n.py']"
+5c3c470fc407101bd0bc9fac2654d1fc7dbd9998,"Fixed a bug in the subscript operation.
+
+--HG--
+branch : trunk",['a5d8f55ea552941df0814953226d7279d6de886c'],False,"['CHANGES', 'jinja2\\compiler.py', 'tests\\test_undefined.py']"
+f40c8844ebf05d1447a11976b571d9e37db1f04d,"Fixed a bug with the handling of empty statements in macros (it also fixes a bug introduced in one of the previous changesets)
+
+--HG--
+branch : trunk",['4d5bdff2b8b1b77917860cfc9ec4590d29d03156'],False,"['CHANGES', 'jinja2\\compiler.py']"
+1b54f7435ba58add1e4ac495688c39ff36fb59eb,"Added i18n support to django2jinja (not complete support, but the best you can get before django fixes a bug in i18n handling)
+
+--HG--
+branch : trunk",['dcc217cf65d080f64dc8011043f2faebe7e4974c'],False,"['ext\\django2jinja\\django2jinja.py', 'ext\\django2jinja\\example.py', 'ext\\django2jinja\\templates\\index.html']"
+9a7306e1a3e602681606d26a198fbae3bb1c8ee1,"Fixed a bug in djangojinja2 that caused mimetype being forwarded propertly.
+
+--HG--
+branch : trunk",['c347ed0f456ffab654a3621f59b1daeda724977f'],False,['ext\\djangojinja2.py']
+335b87a84695854f3af03ada3131c55fc59d4a31,"Fixed a bug in constant folding of keyword arguments to filter calls.  Thanks noskolo.
+
+--HG--
+branch : trunk",['5799605a1e6d0a944ad98d30f8a2dd46d8aaef9c'],False,"['jinja2\\nodes.py', 'tests\\test_old_bugs.py']"
+7966895d0dd38ca2c2362640e528933d55686b51,"The hopefully final fix for the bug apollo13 spotted earlier.
+
+--HG--
+branch : trunk",['234cad6f6100ebdeb35ab8bd9307cd328cd4c1d9'],False,"['jinja2\\compiler.py', 'tests\\test_old_bugs.py']"
+e308bf251856ccc79c3803bfe0e3246fb9a07657,"Fixed a macro scoping bug discovered by ckknight introduced in one of the earlier changes for the 2.1 release.
+
+--HG--
+branch : trunk",['4735fbd035b1701a9b85a064c008a5d5533df7dd'],False,"['jinja2\\compiler.py', 'tests\\test_inheritance.py']"
+9efe0819a164d733e630ce04f7f4222bcaca6a52,"Fixed a small bug with the undefined object: the error message on divisions with undefined objects was misleading.
+
+--HG--
+branch : trunk",['1c56b3905cea0539531a95b0e87241a40c28c280'],False,"['jinja2\\runtime.py', 'jinja2\\sandbox.py']"
+d9342dcb855ee78a1971f8e22660726e711f50b7,"Fixed an escaping bug in urlize
+
+--HG--
+branch : trunk",['ba6e25a882a3ac862fc513e6c9cbfc83536c54ce'],False,"['CHANGES', 'jinja2\\filters.py', 'jinja2\\utils.py', 'tests\\test_old_bugs.py']"
+cebd838f5af4ff99d862cbafab1a6a782dd50b56,"Fixed a translation error caused by looping over empty recursive loops.
+
+--HG--
+branch : trunk",['2bc1ef7c862398525070a308bac1ac5e407f6cc1'],False,"['CHANGES', 'jinja2\\compiler.py', 'tests\\test_forloop.py']"
+f21e4448e07251f1b1a4fb0a66b9be5e87843b4b,"On our way to 2.2 we found a bug in 2.1 and our repo is now 2.1.1 :)  No need to branch for that.
+
+--HG--
+branch : trunk",['cebd838f5af4ff99d862cbafab1a6a782dd50b56'],False,['setup.py']
+330fbc0ad21fe988a7970c2f04df3a411bbeb4bd,"Fixed a bug that caused syntax errors when defining macros or using the
+`{% call %}` tag inside loops.
+
+This fixes #323.
+
+--HG--
+branch : trunk",['bec76c789fa89e3ea86e3998ff3d4941df26edd1'],False,"['CHANGES', 'jinja2\\compiler.py', 'jinja2\\debug.py', 'tests\\test_forloop.py']"
+b3b5802349723ab864cc3531ac9b72a230cb841e,"Improved usage of string interning.  This should fix the problems with jython.
+
+--HG--
+branch : trunk",['330fbc0ad21fe988a7970c2f04df3a411bbeb4bd'],False,['jinja2\\lexer.py']
+ee2d3c43fa2659e32926dfc438e6f281c86ed1a2,"Fixed a bug in the parser that made ``{{ foo[1, 2] }}`` impossible.
+
+--HG--
+branch : trunk",['b3b5802349723ab864cc3531ac9b72a230cb841e'],False,"['CHANGES', 'jinja2\\parser.py', 'tests\\test_syntax.py']"
+7850dc597e99ffd62628ce9f319f18373f216b6c,"Fixed a documenation bug in the cache extension.
+
+--HG--
+branch : trunk",['ee2d3c43fa2659e32926dfc438e6f281c86ed1a2'],False,['docs\\cache_extension.py']
+271a0eb911903c3e34c6ea484d00359e74fb589b,"Fixed a bug that caused internal errors if names where used as iteration
+variable and regular variable *after* the loop if that variable was unused
+*before* the loop.  (#331)
+
+--HG--
+branch : trunk",['7887a8c63c482d99efcb9a2b69eefd2d70afd327'],False,"['CHANGES', 'jinja2\\compiler.py', 'jinja2\\nodes.py', 'tests\\test_ext.py', 'tests\\test_forloop.py', 'tests\\test_heavy.py']"
+02b42a8364a3aae455bc0bbd47ed9509ec83f45b,"Added testcase for a bug
+
+--HG--
+branch : trunk",['d416a97260947fcd302f2e14e28cb6160dd412ab'],False,"['jinja2\\compiler.py', 'tests\\test_old_bugs.py']"
+db7985dead0c12df0fbda41e7ccda37fbd09be18,"Fixed bug in line-based comments with priority.
+
+--HG--
+branch : trunk",['59b6bd5d8480fcdc61936e691969e72fb4bb2e83'],False,"['jinja2\\lexer.py', 'tests\\test_parser.py']"
+1bb3ab72c9d369d3c16f81282b45f35618f8a48c,"Fixed another bug with line comments
+
+--HG--
+branch : trunk",['db7985dead0c12df0fbda41e7ccda37fbd09be18'],False,"['jinja2\\lexer.py', 'tests\\test_parser.py']"
+2a791926b9d69c02f54c10a62c4c1ce5e6ac40ab,"Fixed a bug with template syntax errors not handled properly.
+
+--HG--
+branch : trunk",['a18872d1b8a10a82aa96d41bce6f112c1187cff0'],False,"['jinja2\\debug.py', 'jinja2\\environment.py']"
+94ee6aa9788fa4577566efd4313bf84cdb2e48d8,"Fixed a bug in jinja2/debug (second time, forgot to merge and threw away changes -.-)
+
+--HG--
+branch : trunk",['f93a0ef9d49fefed7f3ac74011cdf55ad7323776'],False,['jinja2\\debug.py']
+604b8468e10c349abcffaf17b0ab8bdcd91cf3ca,"Fix typo. Closes #343
+
+--HG--
+branch : trunk",['94ee6aa9788fa4577566efd4313bf84cdb2e48d8'],False,['docs\\faq.rst']
+a092a786444bb285045737e4d782fc7a80233944,"typo fix
+
+--HG--
+branch : trunk",['671e06bdc5678d2b207112499868803f7111aa3d'],False,['docs\\templates.rst']
+2b48839fb65f0ce5276c3de4ad30a705e89a3162,"added a deprecation warning for a variable assignment, scope bug
+that exists since 2.0, code could depend on.  See :ref:`jinja-scoping-bug`
+for more information on this problem.
+
+Tip is 2.3 as this will be the next release (will happen soon!)
+
+--HG--
+branch : trunk",['f1c421d6d952035cd20a036367b858fe32945f12'],False,"['.hgignore', 'CHANGES', 'docs\\faq.rst', 'jinja2\\compiler.py', 'jinja2\\runtime.py', 'setup.py', 'tests\\test_old_bugs.py']"
+79cc8d1640e691f6e0e23f96e509691f9167c66c,"Fix typo.
+
+--HG--
+branch : trunk",['2b48839fb65f0ce5276c3de4ad30a705e89a3162'],False,['docs\\intro.rst']
+74230e6a386f077dd446a7dd3bf329c078e602ad,"Fixed a scoping bug that was introduced in the development version and was
+triggered by multiple layers of local variables not tracked properly in if
+statements.
+
+--HG--
+branch : trunk",['2b48839fb65f0ce5276c3de4ad30a705e89a3162'],False,"['jinja2\\compiler.py', 'jinja2\\utils.py', 'tests\\test_old_bugs.py']"
+95632c4dae693127340221f7eed11f68953db4c3,"Fix typos and one extra import.
+
+--HG--
+branch : trunk",['2f0d65917275c29703126bc60f753ebcea9d5a89'],False,"['jinja2\\environment.py', 'jinja2\\utils.py']"
+ef18944317d79cd4919561f29c9f772869e88443,"More correct fix for 380.  The only thing that is part of the outer scope
+is the name of the thing to call.  Though because it will never be able to
+track store nodes, the one before should not do harm either.
+
+--HG--
+branch : trunk",['e0016f5c62437f29a569c1d4067f16af3085ced1'],False,['jinja2\\compiler.py']
+5dcb724c92f50574f224da21a622aa81300e6777,"greatly improved error message reporting.  This fixes #339
+
+--HG--
+branch : trunk
+extra : rebase_source : d8f677273490fa73d5603b68478fa3b54f60ccb9",['d9ea26e79ff21f522e78ce76fde5c1ad53c4745a'],False,"['CHANGES', 'jinja2\\lexer.py', 'jinja2\\parser.py', 'tests\\test_parser.py']"
+e614e88744fba8de7070908c3cc83eb0d23c924e,"implicit tuple expressions can no longer be totally empty.
+This change makes ``{% if %}...{% endif %}`` a syntax error
+now. (#364)
+
+--HG--
+branch : trunk",['5dcb724c92f50574f224da21a622aa81300e6777'],False,"['CHANGES', 'jinja2\\parser.py', 'tests\\test_old_bugs.py']"
+7fd4ad638cd14cdc20bd6b19ccd8e0ea111b3aef,"Added a testcase for #363.  This bug was fixed along the way.
+
+--HG--
+branch : trunk",['4ac4bdf21ca7d85491b1a17d386c96bd80715592'],False,"['Makefile', 'tests\\test_old_bugs.py']"
+5d659dbe62e8198d26dbb72b25ad28326eba85a4,"Fixed bug in a testcase.
+
+--HG--
+branch : trunk",['1ef7703cdcade0cc270cb4369c2b8adc4afa9210'],False,['tests\\test_old_bugs.py']
+92622e9145a6b50d59ac7ed30fd255a664b76f4e,"Further error message improvement, this time for #341.
+
+--HG--
+branch : trunk",['5d659dbe62e8198d26dbb72b25ad28326eba85a4'],False,"['jinja2\\parser.py', 'tests\\test_parser.py']"
+88dc32cb4b0d0e883a26e6e18759bf4ee22a91e9,"PrefixLoader raises correct error message now.  This fixes #358.
+
+--HG--
+branch : trunk",['9b4cc9ff08b2a80c948c442344b6fca1650e64e6'],False,"['jinja2\\loaders.py', 'tests\\test_old_bugs.py']"
+df2907e0abe34557d809f5553ae3cc06940c66b1,"ported fix for #368 from maintenance branch.
+
+--HG--
+branch : trunk","['559025a3c0c06cf98011c69302965ae13c0fbef6', '28decdbe96e2ffc5ef45177256b2cbeb05eb246c']",True,[]
+17f5447d9c4e902c8f55e6159e56b9f224287dfe,"Fix test in Python 3.2 -- the exception message changed.
+
+--HG--
+branch : trunk",['d72105faed82e4fcfb5443fa061dcd92e5ca4986'],False,['jinja2\\testsuite\\debug.py']
+744bb0a3230e759146ed98c463b527ee652d80f0,"Added another testcase and fixed a bug with the volatile scoping.
+
+--HG--
+branch : trunk",['d3e6bc41190b79dc8c9d502436c8a226b60e6f5a'],False,"['jinja2\\compiler.py', 'jinja2\\testsuite\\ext.py']"
+8a672512e7275985b8bc4be24b470c99a1be79ec,"Fixed a scoping bug that caused the immutable scoping rule to be ignored
+in a few edge cases.  This clauses #376.
+
+--HG--
+branch : trunk",['752ba7f0d9831fb79cde22c1ceb678f79b16adce'],False,"['jinja2\\compiler.py', 'jinja2\\testsuite\\regression.py']"
+98dbf5fb1d7fc991d3ccf3f628cd723e8e84d40a,"Improved error message for undefineds
+
+--HG--
+branch : trunk",['7d29ec68271195235a3893c98894628f19c92810'],False,"['jinja2\\runtime.py', 'jinja2\\testsuite\\api.py', 'jinja2\\utils.py']"
+800ac7f623a21e7549c7afd6aa7c340c0713eb3f,"fixed an error reporting bug for undefineds.
+
+--HG--
+branch : trunk",['27387aa54a550f6803a5deadf1f8c3b0b5c180ce'],False,"['CHANGES', 'jinja2\\testsuite\\utils.py', 'jinja2\\utils.py', 'setup.py']"
+93d2df782dd7e9c50799b0ddb20a8d80defdff86,"Fix unbound local error masked by bare except.
+
+--HG--
+branch : trunk",['802f4720cd854c22f300b883d52967a8ccf2a2cb'],False,['jinja2\\nodes.py']
+737954909febeabbabda84b933fa78066bb5c3ef,"Version 2.4.2
+-------------
+(bugfix release, release date to be announced)
+
+improved the sort filter (should have worked like this for a
+long time) by adding support for case insensitive searches.
+fixed a bug for getattribute constant folding.
+
+--HG--
+branch : trunk",['5a5ce730ee6e49aad63933efec9b1b54ed1e42a0'],False,"['CHANGES', 'jinja2\\filters.py', 'jinja2\\testsuite\\filters.py']"
+1120b7b0aac2fdff302829aa8b939d19d37932a1,"Next try for a Python 3 fix
+
+--HG--
+branch : trunk",['d1ef7e0f43aa0dfa41667da3186a4df28664002c'],False,['jinja2\\runtime.py']
+ec25a0c3bbbbecdcbd48b113c09164e7961422d6,"Fixed a bug in add_extension
+
+--HG--
+branch : trunk",['78efe7401b1f49fc1a72fc33ed6b6b97767cec44'],False,['jinja2\\environment.py']
+ac0c0d08e8d9fc20e416e04fac6da8b161da147b,"Committed fix for raw testcase.
+
+--HG--
+branch : trunk",['b525c9374d3b12eab3ad26da9a88e4f5b3843c5d'],False,['jinja2\\lexer.py']
+b299acb6ce3fb81607d12cc501b83c4124460996,"fix the abs filter test
+
+--HG--
+branch : trunk",['0d94e08e3d145f5be9e54a9a5fdffeeb69a58658'],False,['jinja2\\testsuite\\filters.py']
+8e260d2f3cd20be2d05ccf3109e1178f38b9ad2c,"Merged in fix for Python 3 regarding precisions
+
+--HG--
+branch : trunk","['c4538a854bacd7661b2affd4c43e54095a6f1ea4', 'e589a3e20e3af316a13dc5db763d286fccca62c6']",True,[]
+613912d137bc4989f12d1964df97f79ab1e3be88,"fixed an operator precedence error introduced in 2.5.2.
+
+Statements like ""-foo.bar"" had their implicit parentheses applied around
+the first part of the expression (""(-foo).bar"") instead of the more
+correct ""-(foo.bar)"".",['9dc0619d6528e9fbef328faf56a982d4af7379ba'],False,"['CHANGES', 'jinja2\\parser.py', 'jinja2\\testsuite\\lexnparse.py']"
+d464d0820c6a42f77a7c52516195840602195936,Fixed a bug in the documentation tool,['3383e1ca375290d2cd248c11171ff7e5a2b92a4d'],False,['docs\\jinjaext.py']
+bd13945a698f509c11486baaa93ff970c2d08f98,Fix list_modules for PackageLoader,['18286b6efb3b772d2db04a7ff7fd4c3be764fee0'],False,['jinja2\\loaders.py']
+200444922bd9c1f5ca70ccf7559320eeeae184ce,fix typo,['a80d2f560cd0dfaf5e31596f26e77d913dc3275c'],False,['docs\\templates.rst']
+06147473cf1a1f963f44b02ca852a552023f739b,Fix a typo,['8a05e937cca3f5da09e482adb9821e3fb266b6cc'],False,['docs\\templates.rst']
+4e699a9b1f9e34c6cd0245e09f0508ebbd9ec02e,"Merge pull request #47 from mineo/patch-1
+
+Fix a typo","['8a05e937cca3f5da09e482adb9821e3fb266b6cc', '06147473cf1a1f963f44b02ca852a552023f739b']",True,[]
+eeea49596a7431df2dd7afa7f6fd8360b37b5cd1,"Fixed a bug causing ""NameError: global name 'code' is not defined"".",['4e699a9b1f9e34c6cd0245e09f0508ebbd9ec02e'],False,['jinja2\\bccache.py']
+8b5af8972250fc34e5bcd2dfa88ba16c8a45b121,Typo fix ... I think.,['9b1de008939555c0cd45ee6942a66030f9a3b3d4'],False,['CHANGES']
+84ec5156fc78e4267de7d17c32ec89d0d9b16e00,"Merge pull request #50 from SimonSapin/patch-1
+
+Typo fix ... I think.","['9b1de008939555c0cd45ee6942a66030f9a3b3d4', '8b5af8972250fc34e5bcd2dfa88ba16c8a45b121']",True,[]
+4e1bded46c1f34f0306608a35bd81d1cde38e50c,fix typo in test name,['5c5d0613524b230856c39a61e309122c94f28b0f'],False,['jinja2\\testsuite\\lexnparse.py']
+e3a5d8a93715f1301b0d8ce492110d154073408c,"fix matching typo in tests, restore missing assert",['4e1bded46c1f34f0306608a35bd81d1cde38e50c'],False,['jinja2\\testsuite\\lexnparse.py']
+52c88fb66ad7eafd9ec4e7497398675c03169b4b,Typo fix,['7d268bef0e8f3f12c0acb90f30d67726a3e3f261'],False,['jinja2\\exceptions.py']
+7269991b8c84c85038c528c39c4ee543878013d8,"Merge pull request #80 from joshmoore/master
+
+Minor typo fix under docs/","['7d268bef0e8f3f12c0acb90f30d67726a3e3f261', 'cd95414e8fa05241a0cb594f2cb83ac48f6bfd11']",True,[]
+6e97b061558f02ffc42691b530d61d2e76319d6c,Small typo fix to extension docs,['7269991b8c84c85038c528c39c4ee543878013d8'],False,['docs\\extensions.rst']
+1161915fd7673275f77560ab110963c85cbda676,Fixed a bug in the i18n extraction option handling and added a silent option.,['7d268bef0e8f3f12c0acb90f30d67726a3e3f261'],False,"['CHANGES', 'docs\\extensions.rst', 'docs\\integration.rst', 'jinja2\\ext.py']"
+79c8475f80257be4999a20d1432ff6a8e3f38815,"fix previous commit, which was kinda nonfunctional",['5a25a47996e8a2ad93fa92217f9247dea9a3c424'],False,"['jinja2\\ext.py', 'jinja2\\testsuite\\ext.py']"
+ea89feb0d9e5abec9791b57e69fdd7035f80369a,"Merge pull request #92 from jasonkotenko/master
+
+Fix loop.last memory issue","['5145401fe5f9995a32757f34359623b87048ab8b', '776567cc4e87f26ad57b52bb16c5462a281b4ca3']",True,[]
+e04e32fac9382dc7051ef4361ff770395c7b77ac,Fix the Mako-like environment.,['99b22854ea6322dbd228e6a7ebfe3285cd68a138'],False,['docs\\switching.rst']
+220538cc1d83f8f7fb71e8c56014a43d7cdc3625,"Merge pull request #81 from obeattie/docs-fix
+
+Small typo fix to extension docs","['a0eabddb1a4df71e41493ce639928a0df864b74d', '6e97b061558f02ffc42691b530d61d2e76319d6c']",True,[]
+1305cfdaee59ddcc4e686dfa0410f0cdad33b5f7,"Merge pull request #78 from SimonSapin/patch-2
+
+Typo fix","['220538cc1d83f8f7fb71e8c56014a43d7cdc3625', '52c88fb66ad7eafd9ec4e7497398675c03169b4b']",True,[]
+8f0c8ee591fff99d7782525bed4a3e1b24c9088a,"Fix to #93, this time respecting whitespace
+
+Rejigger of title split to respect whitespace, also capitalize follow-on
+hyphenated words.",['1305cfdaee59ddcc4e686dfa0410f0cdad33b5f7'],False,"['jinja2\\filters.py', 'jinja2\\testsuite\\filters.py']"
+796ee3ffac160b5747a010344765914a0dfba98a,"Merge pull request #103 from njl/fix-issue-93
+
+Fix to #93, this time respecting whitespace","['e5763b358e4cf0a60e98ee22d24d94e711f05e53', '8f0c8ee591fff99d7782525bed4a3e1b24c9088a']",True,[]
+a21f2edfc9536c918bae0ef654f9f3ffb1c2b508,Fix typos.,['796ee3ffac160b5747a010344765914a0dfba98a'],False,"['docs\\templates.rst', 'jinja2\\filters.py']"
+59f33664cfcfc6c7fcd2a9bec4a8848b829bde68,"add lstrip_blocks environment setting, fix lexer",['15605a84be45f368cc93b447da8e9c70ef84bb0b'],False,"['jinja2\\defaults.py', 'jinja2\\environment.py', 'jinja2\\lexer.py']"
+01d89864d3b276425625d435ac078a52553aff36,Fix lstrip_blocks tests,['fdf8201437e8978c15fa542073c4f7243dff7f9c'],False,['jinja2\\testsuite\\lexnparse.py']
+523efbdf6145f0b39eb03add87ab515f3e184b24,fix tests since lstrip_blocks strips comments,['54f7d2ec3b332efafea45ce67346f66b07316d9a'],False,['jinja2\\testsuite\\lexnparse.py']
+fd3c9e684f2f84806b4772ceee93ad49cda463c7,Fix FAQ typo,['6327f79efd5b48fd47a785feb77467b52e62ae32'],False,['docs\\faq.rst']
+21a2010bf2768bc658e09666c2135063ce004efc,Fixed an unicode error after 2to3,['9e9cf47c81dc3ecae451b4224168ca6bab2cf701'],False,['jinja2\\environment.py']
+200fe17f1c81c17ddf5f4c4f38e2ea0425e349af,Fix typo in `include` documentation,['21a2010bf2768bc658e09666c2135063ce004efc'],False,['docs\\templates.rst']
+85b9c8ab3994684d1d1ae47bad94179236d017df,fix DictLoader `uptodate` callback,['21a2010bf2768bc658e09666c2135063ce004efc'],False,"['jinja2\\loaders.py', 'jinja2\\testsuite\\loader.py']"
+67c24803e6bd1f43d919fe0a89c21fc98f2f5402,"Fix jinjaext compatibility with Python 3.
+
+Patch by Arfrever.
+
+Fixes: https://github.com/mitsuhiko/jinja2/issues/115",['21a2010bf2768bc658e09666c2135063ce004efc'],False,['docs\\jinjaext.py']
+a29f9ddf58b30b81ea83db8e2282de58ccec6e20,fix typo swtich -> switch,['21a2010bf2768bc658e09666c2135063ce004efc'],False,['docs\\switching.rst']
+77bcbfe8da5fd99eb4e4e636d4396b23b1f9d8a0,"Merge pull request #171 from mgorny/master
+
+Fix jinjaext compatibility with Python 3","['d4e54382cbe6c9760d01fec22655851bd54f02bc', '67c24803e6bd1f43d919fe0a89c21fc98f2f5402']",True,[]
+846bdc125c8463a6f9977aed4a977cbaaa3bc8d4,"Merge pull request #177 from sakti/patch-1
+
+fix typo swtich -> switch","['77bcbfe8da5fd99eb4e4e636d4396b23b1f9d8a0', 'a29f9ddf58b30b81ea83db8e2282de58ccec6e20']",True,[]
+6b7c0c232ff8f9ee373e69c0e1ec0e345ea75816,"Fix vim syntax: Correctly highlight filters.
+
+`skipwhite` makes only sense in combination with `nextgroup`.
+Now filters are correctly highlighted independent of spaces after the
+'|'.",['846bdc125c8463a6f9977aed4a977cbaaa3bc8d4'],False,['ext\\Vim\\jinja.vim']
+2b0231c1d77159f9af3615e9d36e23a078ce3d69,"Merge pull request #202 from Necoro/master
+
+Fix vim syntax: filters","['9962c10b258472d7e07ec4d447d21fcee9d998c2', '6b7c0c232ff8f9ee373e69c0e1ec0e345ea75816']",True,[]
+840e7e060e3537172c57a8a96cf5bc502f55b67f,Added a way to disable memcache error ignoring and documented the change.  Also changed a bare except to an except on the exception type.,['8fea62d44b078fd5590ea66756963d0f0c4f3e56'],False,"['CHANGES', 'jinja2\\bccache.py']"
+257a8cdc1e3c70590bc569cf7638eca06984d2e5,"Merge pull request #141 from dgilman/patch-1
+
+Fix FAQ typo","['b418550f2547253d8385402916085739272e5974', 'fd3c9e684f2f84806b4772ceee93ad49cda463c7']",True,[]
+d754f8c2b19775fab0e82fe1eee53e5d2161f0d4,"Merge pull request #162 from mgax/fix-caching
+
+fix DictLoader `uptodate` callback","['0a6f850d9a4e53950cd89cfec5c91a5a082ed7af', '85b9c8ab3994684d1d1ae47bad94179236d017df']",True,[]
+83f6a6891212b4a169346b1454801e296dc7cd66,"Merge pull request #149 from dmedvinsky/patch-1
+
+Fix typo in `include` documentation","['d754f8c2b19775fab0e82fe1eee53e5d2161f0d4', '200fe17f1c81c17ddf5f4c4f38e2ea0425e349af']",True,[]
+55ea1df4c54562a9c7dec54d047868118d9eae0b,"Merge pull request #94 from florentx/patch-1
+
+Fix the Mako-like environment.","['3054985e76da3753354bfa99320502417c9473bd', '21b624b7143d377fce47c232a58a0d2162cf3218']",True,[]
+c5005a7edfc578265ccef4026d4c30a0124d1361,"Merge pull request #104 from njl/fix-issue-77
+
+Fix issue #77","['55ea1df4c54562a9c7dec54d047868118d9eae0b', '7336b7af6c20a811930d49e97ef1bc447e062efa']",True,[]
+4a41dd67537a0d1f10bc1e0d074924161cfa4317,Fixed a docstring and a syntax error on 3.3,['c87d4cf11fe91dc4f477e0f815d0d0dfd6434d12'],False,"['jinja2\\_compat.py', 'jinja2\\testsuite\\inheritance.py']"
+70a2bc0e58c211bdd86e89abd29ec12b2387b6fa,"Fix MarkupSafe case in setup.py
+
+Most of pypi mirrors don't allow wrong package name case when installing
+them using pip
+example: c.pypi.python.org
+
+I know, this is very painful",['f15b814dcba6aa12bc74d1f7d0c881d55f7126be'],False,['setup.py']
+073fdc0a523db388c333ff176d471f47d3369e19,"Merge pull request #226 from dzen/master
+
+Fix MarkupSafe dependancy case","['f15b814dcba6aa12bc74d1f7d0c881d55f7126be', '70a2bc0e58c211bdd86e89abd29ec12b2387b6fa']",True,[]
+3fc008b6297d276d35e167a4946eb9b9445558a6,fix a bunch of typos in the documentation,['073fdc0a523db388c333ff176d471f47d3369e19'],False,"['docs\\api.rst', 'docs\\extensions.rst', 'docs\\sandbox.rst', 'docs\\templates.rst', 'docs\\tricks.rst', 'jinja2\\nodes.py']"
+342e88a6c43276e4e5c7e8fd9a83c9f6fee4d6b2,Fixed a bug with call_filter not working properly,['5ca25297d0cffa171ff6304ff9be6a38834be55d'],False,"['CHANGES', 'jinja2\\environment.py', 'jinja2\\testsuite\\filters.py']"
+dc3b431829afa616f11f3d781bfabe573e54f40c,"Fix Python 3 compatibility of BytecodeCache by checking for `if
+isinstance(filename, text_type)` instead of `if isinstance(filename,
+unicode)`",['10707853c4a0a02d52233581375be246e0d33598'],False,['jinja2\\bccache.py']
+f25707c4205e8f49cfd528eaaa180ef20fc439e2,Fixed a syntax error on Python 3,['f18deb623ca56b8b8315e8b179ab6138c02778c3'],False,['jinja2\\bccache.py']
+972feb4da2adbd91cee7856085ac9cb6c9d58f6b,Fix typo.,['27ffd01f95cad7740497a32b22e4ef9d29762162'],False,['docs\\tricks.rst']
+4eb30f1dec22a3f803d910477eead35271b771e0,"Fix loop context length calculation for iterators. Fixes #244
+
+This resulted in wrong values for revindex and revindex0
+while looping over an iterator.",['27ffd01f95cad7740497a32b22e4ef9d29762162'],False,"['jinja2\\runtime.py', 'jinja2\\testsuite\\core_tags.py']"
+25d83a4102774266e8b6ba3cf75ca4cb5c60c78b,"fix os.name of Windows
+
+os.name of Windows is 'nt', https://docs.python.org/3.4/library/os.html#os.name",['b7d13f278753d057bb3765b4d4a672c351d88bf3'],False,['jinja2\\bccache.py']
+4dd06e72c3a4ef131aac6508aad66326dd9e5966,"Merge pull request #331 from SteelyWing/patch-1
+
+fix os.name of Windows","['72a93c8e73a87b13ae8e2fb38a046a3e21f43806', '25d83a4102774266e8b6ba3cf75ca4cb5c60c78b']",True,[]
+e2e34a0ec1c9ea892aa1627557453c291bd73224,"Merge pull request #315 from lazka/fix-iter-length
+
+Fix loop context length calculation for iterators. Fixes #244","['65ae6e20ac13558a21d3c697b3064f72d352add9', '4eb30f1dec22a3f803d910477eead35271b771e0']",True,[]
+06badebe3b0985c9fe3365ab446f690d1af3a512,Fix for #304,['c8c70ff597572577bc5d1dcf80f8910f8bc59f7c'],False,['jinja2\\lexer.py']
+fff365eb0b841ee7bf212525f0433b047e780996,"Merge pull request #310 from vivekagr/patch-1
+
+Fix typo.","['7b32f8f8d1c2970a83ce8565a6e0d581a4187ded', '972feb4da2adbd91cee7856085ac9cb6c9d58f6b']",True,[]
+964c61ce79f6748ff8c583e2eb12ec54082bf188,"Fix CVE-2014-0012
+
+Add checks for the per-user temporary directory.  If it already exists, make
+sure that it:
+- is owned by the current user
+- is directory
+- has expected permissions
+
+This commit also fixes:
+- nt -> n typo pointed out in the review of acb672b
+- replace 448 with stat.S_IRWXU when setting directory mode
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",['5662125f794f41ac73849a95a9e572e0e5a98b4e'],False,['jinja2\\bccache.py']
+183e4787b25e6ea18221bfd1a6b18fc1d07b7a0e,"Fix missing "" in docs/tricks.rst",['c97fa109d38b5367ce3efffb6e435d007dc55920'],False,['docs\\tricks.rst']
+de08e059a6f1cc3cb152484fbcde88352bfc73b8,"fix typo ""possible to defined"" -> define",['85820fceb83569df62fa5e6b9b0f2f76b7c6a3cf'],False,['docs\\tricks.rst']
+960138bd15cdb267911d3d58607a4265a3517452,fix trivial typo (side -> size),['85820fceb83569df62fa5e6b9b0f2f76b7c6a3cf'],False,['jinja2\\debug.py']
+4e7f44ad071fa3c11d055bafa47bc66c455b1a75,"Fix incorrect truncate filter docs
+
+Examples contrary to behavior and description of killwords argument.",['85820fceb83569df62fa5e6b9b0f2f76b7c6a3cf'],False,['jinja2\\filters.py']
+c0734709b3af160b9e01734014be892338b7100e,Fix typo,['85820fceb83569df62fa5e6b9b0f2f76b7c6a3cf'],False,['jinja2\\utils.py']
+cf845c99ef2fb01b01bf912dc9a0f2a9b973fa60,grammar fix,['85820fceb83569df62fa5e6b9b0f2f76b7c6a3cf'],False,['docs\\templates.rst']
+9bf5fcbb3b3c7c917a3e5b612231cc7767f3f042,Fix number test failing for long in Python 2,['85820fceb83569df62fa5e6b9b0f2f76b7c6a3cf'],False,"['CHANGES', 'jinja2\\_compat.py', 'jinja2\\tests.py', 'jinja2\\testsuite\\tests.py']"
+c6c6ea14375db6fb6a23a8bca533a6e388356422,"Merge pull request #406 from ThiefMaster/number-test-fix
+
+Fix `long_integer is number` check in Python 2","['d09edda04a40b8f050a34064bfd9f414755e174c', '1e73c09137a8047dd5636914115a1b2557903e02']",True,[]
+e41e76cd3318d7a689a14be1740a73e087242f0c,"Disallow f(x, y=1, z) and similar nonsense
+
+Python rejects such function definitions because it doesn't make much
+sense to have arguments with no default values after arguments with
+default values.
+
+Jinja did allow them, but handled them improperly (associating the
+default value with the wrong argument).
+
+Due to how broken the current behavior is, it makes more sense to reject
+templates containing such defintions instead of trying to handle them
+properly. Both cases are going to break existing code containing such
+definitions, but besides the fact that possibly no such code exists it
+is better to fail with a clear error than to silently change the values
+of arguments.
+
+This fixes #364",['c6c6ea14375db6fb6a23a8bca533a6e388356422'],False,"['CHANGES', 'jinja2\\parser.py', 'jinja2\\testsuite\\core_tags.py']"
+c251d8a577592caeca7c7380571fd34887fae3dd,fix copy-pasted typo in filter docstrings,['d0b35415adc45681a90b6f6868f4a6ba97141523'],False,['jinja2\\filters.py']
+9e8a9b8974818080e55a0d4a2eb0c6f9ee3c2de2,"Merge pull request #413 from hmeine/master
+
+fix copy-pasted typo in filter docstrings","['d0b35415adc45681a90b6f6868f4a6ba97141523', 'c251d8a577592caeca7c7380571fd34887fae3dd']",True,[]
+dd31dbad697d789c5d5340d92ec87646c5452fcb,"Merge pull request #398 from cerivera/master
+
+grammar fix","['1f3a09b913aad10ead81c0f7c6f1bca13ba0ae7e', 'cf845c99ef2fb01b01bf912dc9a0f2a9b973fa60']",True,[]
+e5de47f5a1a0ca88b9cf6a55dae0ccc068a8c414,"Merge pull request #397 from utzig/master
+
+Fix typo","['dd31dbad697d789c5d5340d92ec87646c5452fcb', 'c0734709b3af160b9e01734014be892338b7100e']",True,[]
+c890d9d71fdec7241e8efcf09a7dca38a4fb7b1e,"Merge pull request #388 from olegpesok/truncateDocFix
+
+Fix incorrect truncate filter docs","['242cd2c521be2ad8eb9a8d8f80788aa7e99ffec6', '4e7f44ad071fa3c11d055bafa47bc66c455b1a75']",True,[]
+e2ec123cd3ebe06898b5ff09818cb1483f03e7bd,"Merge pull request #383 from rbtcollins/patch-1
+
+fix trivial typo (side -> size)","['92278b782f71f85fcf09c59e4289a761a4e8c629', '960138bd15cdb267911d3d58607a4265a3517452']",True,[]
+d97db3fdd9e98371c797c09e1d5cf6ad8b10af27,"Merge pull request #370 from BillyWM/patch-1
+
+fix typo ""makes sense to defined"" -> define","['c837008826a44a708ad42651a1cc1692c67ae415', 'de08e059a6f1cc3cb152484fbcde88352bfc73b8']",True,[]
+714ee3fadabd8ca7659c6651aa0d65414a50c506,"Merge pull request #345 from hszcg/patch-1
+
+Fix missing "" in docs/tricks.rst","['b1851eb649c4ae463b261d268df5c440202016a4', '183e4787b25e6ea18221bfd1a6b18fc1d07b7a0e']",True,[]
+a1f76f92a182e3afbd7e9d221cf7ece8b89649a6,"Import from correct location.
+
+Fix #259",['8fc231a1199066f63cb464081970ad12fa8b2567'],False,['docs\\jinjaext.py']
+e0615edb7590591356384465fec8413ebbeece8c,"Fix literal \ characters at the end of a string
+
+Given a statement like `{% set sep = '\\' %}`, the syntax highlighter was considering the literal `'\\'` to be a literal quote inside the string by matching `\'` and thus highlighting the rest of the entire document as a string.
+
+This change fixes that issue by adding some regex to ensure that an escaped quote is preceded by an uneven number of slashes (that is, `'\\\\\''` would accept the literal string `\\'` without issues). A`""` quoted string is modified the same way.",['1b7a7f4f2f64d3aea17d2b2b90789ae86dd376b1'],False,['ext\\Vim\\jinja.vim']
+599c1360bc42ae9ca21525299d92c6cd9ba887b5,"Fix doctests
+
+Fix #427",['1c5f1e8d85bdb2e0157685a61d3c9dda41108a7c'],False,"['jinja2\\environment.py', 'jinja2\\meta.py', 'jinja2\\runtime.py', 'jinja2\\sandbox.py', 'scripts\\jinja2-debug.py', 'setup.cfg']"
+a1fb63c7ad218aa253595837bc01fbe4ef9b8a7a,Fix travis,['0349f9bfd0ea7844d96f6a94bef17ccf0ef718d0'],False,['.travis.yml']
+1ae49941f8d2c4cb88a8cb952d095a7b1e1a90fe,Fix #433,['a1f76f92a182e3afbd7e9d221cf7ece8b89649a6'],False,['jinja2\\_compat.py']
+e1184d251a550a52fee47a0dc9d7d1e1090a4ac3,Fix syntax error,['1ae49941f8d2c4cb88a8cb952d095a7b1e1a90fe'],False,['jinja2\\_compat.py']
+972c03055228fd1c5c692f1ad8c717946d88498c,Fix a few small typos in the docs,['502050c9dc677414a1b0261b40f4999334fd4ba6'],False,"['docs\\api.rst', 'docs\\faq.rst', 'docs\\switching.rst']"
+a0d47b9cf9fb31b9a373c202a828a689b9837bf1,"Merge pull request #437 from alexwlchan/master
+
+Fix a few small typos in the docs","['502050c9dc677414a1b0261b40f4999334fd4ba6', '972c03055228fd1c5c692f1ad8c717946d88498c']",True,[]
+fa3a3022cd242c4ce61d4089d79c018a8ce67cf8,"FIX EXAMPLE:
+No longer working with current code base
+since the TokenStream.next() method was removed.",['bd93bf35111d73eb00ef6597a1ec002170c1cd87'],False,['docs\\cache_extension.py']
+f4ddad8b44258fde8f70ee1b06f7ee03906cf661,fix the fancy tracebacks on Python 3,['bd93bf35111d73eb00ef6597a1ec002170c1cd87'],False,['jinja2\\debug.py']
+cdad3e6557e96c0d1eaaa8ae1f64077ffee5b7be,Fix typos and grammar in Readme,['bd93bf35111d73eb00ef6597a1ec002170c1cd87'],False,['README.rst']
+d9346a8a78764ce528a5550177347a9c6f83c89b,"Merge pull request #453 from jeffwidman/patch-1
+
+Fix typos and grammar in Readme","['bd93bf35111d73eb00ef6597a1ec002170c1cd87', 'cdad3e6557e96c0d1eaaa8ae1f64077ffee5b7be']",True,[]
+f6b654de615de61a9ca79e7ccecf7b4a8bf90ec0,Fix typo,['46acbf02ed9ab58c7a92553c95790e75bdc3c930'],False,"['docs\\api.rst', 'jinja2\\loaders.py']"
+45fe80e8a32fc1c1a04dfbb0d55b2255f438221f,"Merge branch 'merwok-patch-1'
+
+Fix #455","['46acbf02ed9ab58c7a92553c95790e75bdc3c930', 'f6b654de615de61a9ca79e7ccecf7b4a8bf90ec0']",True,[]
+676fd8c6b29c8f72a7296d2f6016e9b292942c25,"Sort filters, remove dupes
+
+Fix #454",['45fe80e8a32fc1c1a04dfbb0d55b2255f438221f'],False,['jinja2\\filters.py']
+d2ffef5813678c1dd012d6f92d30bdc8034d2c71,"Merge pull request #450 from jenisys/fixdoc.extension_example
+
+FIX DOC-EXAMPLE: cache_extension.py","['676fd8c6b29c8f72a7296d2f6016e9b292942c25', 'fa3a3022cd242c4ce61d4089d79c018a8ce67cf8']",True,[]
+fd7970ca83eac19a7d2a6c5f77a05e011d9f03ab,Fix syntax error,['06a8f5b75ce2cb3e20d2da5c160570e6ab1b7c02'],False,['jinja2\\filters.py']
+ea07af81bf63249fdffff1d6b1bcf7d5e93d4ff0,"Fix typo: ""the iterates"" > ""that iterates""
+
+In filters.py.",['fd7970ca83eac19a7d2a6c5f77a05e011d9f03ab'],False,['jinja2\\filters.py']
+08652a147a55db8725bd177e5a82e5cf36ddd42a,"Merge pull request #461 from StevenMaude/patch-1
+
+Fix typo: ""the iterates"" > ""that iterates""","['fd7970ca83eac19a7d2a6c5f77a05e011d9f03ab', 'ea07af81bf63249fdffff1d6b1bcf7d5e93d4ff0']",True,[]
+e15037478a24841cddc38cdb7150d132b3895612,"Merge pull request #425 from highlyunavailable/master
+
+Fix literal \ characters at the end of a string","['08652a147a55db8725bd177e5a82e5cf36ddd42a', 'e0615edb7590591356384465fec8413ebbeece8c']",True,[]
+c51e3ab6aa802a20f809cad0ea3208e87ef76a35,Fix typo.,['b78f2617b04cc549ed5fea4eca944c4d8054d187'],False,['jinja2\\filters.py']
+9e72f38702d6309eb0673a575d413a529a279652,"Merge pull request #523 from alimony/patch-1
+
+Fix typo.","['b78f2617b04cc549ed5fea4eca944c4d8054d187', 'c51e3ab6aa802a20f809cad0ea3208e87ef76a35']",True,[]
+678b4887e414ee6827946b0f9ee527112f0cd3ac,docs: Integration link fix,['9e72f38702d6309eb0673a575d413a529a279652'],False,['docs\\integration.rst']
+5b498453b5898257b2287f14ef6c363799f1405a,"Merge pull request #526 from ioab/master
+
+docs: Integration link fix","['9e72f38702d6309eb0673a575d413a529a279652', '678b4887e414ee6827946b0f9ee527112f0cd3ac']",True,[]
+99a78e0a0ff09c94fb35dd254620ae84830253d8,link fix (#527),['935d330b6855470a0e44f6474f778859a2e5542f'],False,['docs\\integration.rst']
+345e0ba5d62a2a50d10a4808c912bbff60bb5db1,Fix typo (#531),['99a78e0a0ff09c94fb35dd254620ae84830253d8'],False,['docs\\api.rst']
+d48cb2129c71fd4b2b29807433a15fe73ae295d3,Fixed typo/grammar error (#532),['f40da1bb9908902ee6f795f5e8edd8362506ebf8'],False,['docs\\api.rst']
+d760b78a2f74156f6db85f5f50304b906f3f5d6b,"standard tox/travis config
+fix pytest warning, don't prefix non-testcase classes with Test",['d48cb2129c71fd4b2b29807433a15fe73ae295d3'],False,"['.gitignore', '.travis.yml', 'tests\\test_ext.py', 'tox.ini']"
+89d05accf9a1a8c64b200dfb2947624da362c4a4,"Merge branch 'snoack-issue-466' into 2.8-maintenance
+
+Fix #467
+Fix #466","['8189d2164dd671c7607771cc132c684f512b8bee', 'd4f0dd9032ce82421b3525a1236679c1380f42d4']",True,[]
+dec12639ca21dc744f8077ab2633c0f7e3332701,Fix the typo,['6d2d3b88e1de1c37d83dc65e636f9e9ca9c7bae0'],False,['docs\\templates.rst']
+ec8452f6db4bd474858758e9eca123222bd7dc3f,"Merge pull request #570 from mr-m/patch-1
+
+Fix the typo in templates.rst","['6d2d3b88e1de1c37d83dc65e636f9e9ca9c7bae0', 'dec12639ca21dc744f8077ab2633c0f7e3332701']",True,[]
+b927c9f27115de078f143ea23f6fb25e7ae204cd,"README - fixes (#578)
+
+* Add syntax highlighting
+* Fix build table which doesn't display on Github RST renderer",['d9b879d1f9388b5cb4679b816767d41abe6e3829'],False,['README.rst']
+7d8ec0f3e8c731c835f59825c1ad5b92c9339886,"Change cache key definitiion in environment
+
+In 6671b973e6de5abc46829a27fd3bbb989d68ca3a the load_template method
+was altered to use a cache key other than the template name. The key
+chosen was the abs path as returned from the loader get_source
+method. Unless there is no path in which case the name is
+used. Unfortunately this introduced a performance regression, #485, as
+the get_source method (in the FileStoreLoader) loads the template
+(causing IO).
+
+The purpose of #332 was to allow the loader to change whilst ensuring
+the correct template was loaded, i.e. to fix this case
+
+    env.loader = loader1
+    env.get_template('index.html') # return loader1/index.html
+    env.loader = loader2
+    env.get_template('index.html') # also return loader1/index.html because of cache
+
+This commit changes the cache key to be a tuple of the id(loader) and
+the template name. Therefore fixing the above case without calling the
+get_source method and thereby avoiding the IO load.
+
+A test has been added to ensure the above case works as expected, this
+required a minor refactor of the caching tests.",['b927c9f27115de078f143ea23f6fb25e7ae204cd'],False,"['jinja2\\environment.py', 'tests\\test_loader.py']"
+390c3cec2bbab50d0ba276d8fea61e27d582172a,Fix typo in clear_caches docstring,['312cf9a1a17b14ef0ad7b93832445fcc3b5040d8'],False,['jinja2\\utils.py']
+9f9606bc93da879db2071c2112f90437c5ac2eb3,"Fix and improve do_truncate
+
+- Ensure that the requested max length be at least as long as the
+  requested `end` value (e.g. 3 in the case of '...'). Fixes #539
+- Add `leeway` parameter so that strings that just barely miss the
+  requested max length cutoff can still be spared from unwanted truncation.
+  Default value is 5.
+- No longer append a space before appending `end` under any circumstances.
+  Adding whitespace before ellipsis punctuation in English is grammatically
+  incorrect.",['390c3cec2bbab50d0ba276d8fea61e27d582172a'],False,"['jinja2\\filters.py', 'tests\\test_filters.py']"
+363ab44a48cb0c5b40d0b88b4fb36019333c2071,Fix typos in CHANGES (#626),['2e422481e9c924a0562fca8e35dcaeca7e97edd1'],False,['CHANGES']
+48baa10f1e018691c23ab9441be0e1b06faf6731,Fixed error message,['d4e14fc4d20b19841c1074d3c28a3f059424354f'],False,['jinja2\\compiler.py']
+74bd64e56387f5b2931040dc7235a3509cde1611,Fixed a name error for an uncommon attribute access in the sandbox,['d3b456fea3d997d84130e30e84325e57b42406b1'],False,"['CHANGES', 'jinja2\\sandbox.py']"
+d1a32e7502ebd0a0605dba19a49df4cddec601e1,Better error messages for some undefines. This fixes #575,['a4dde4b0650e28bbdd7b212f4e03a991dbaff919'],False,"['CHANGES', 'jinja2\\environment.py']"
+49c382a1d0577d3aacf726e62830fc04ac8fec84,"Merge pull request #610 from jab/jab-do_truncate
+
+Fix and improve do_truncate","['5453db1711eeb33c68ed1126764ab691b81d1472', '9f9606bc93da879db2071c2112f90437c5ac2eb3']",True,[]
+b3c174b31aec1ad30225e443dbccda872cdf94e2,Fix and/or logic in docs (#521),['e7e3752c39b3b07745edbfd63a1f46cc4566b436'],False,['docs\\templates.rst']
+fa2d955542b36ca8a9e863e1145a3d4ac17d1c34,Fix various optimizer bugs. This fixes #548,['894ddb1b36d3fe3904db794fad4a4392f94804c4'],False,"['jinja2\\compiler.py', 'jinja2\\environment.py', 'jinja2\\filters.py', 'jinja2\\nodes.py', 'jinja2\\optimizer.py']"
+6235644d33ca6b378cc7b46e4f8ded16b4735714,"Add support for explicit callers
+
+This adds support for a never intended Jinja2 feature which however
+worked in limited support before due to a bug with the identifier
+scoping.  A quick github code search indicates that developers
+commonly did this to set the default caller to none.
+
+This fixes #642",['e3022523a51a4c6569f9e21625ca2cebcc7ce98a'],False,"['CHANGES', 'jinja2\\compiler.py', 'jinja2\\runtime.py', 'tests\\test_regression.py']"
+07c33a5a3c69c771128227213f6e59a11b433121,Added bug reference,['6f7fa5cdcdd1018f1ca7475145785acc26dd960e'],False,['CHANGES']
+462b7868a2f83e1660291e47a8da5452e1d1fd19,Fix another invalid \s escale sequence,['76a8b5e85f0b7ea8d9b23d93c5a113c3aac0d63f'],False,['jinja2\\ext.py']
+414c1d1e62347799a1f60e0a72c27b764b65f0c0,fix failing tests: removed some broken code (#661),['222b3624dec607d211fb38c929c9f6163927356e'],False,['jinja2\\filters.py']
+c74de7282b46da34e761f81e007f6a523d355c06,fix failing tests: removed some broken code (#661),['c6ddeb7d5f64789ed0bbc1ffef8596a79bc06fd9'],False,['jinja2\\filters.py']
+96f52e6a8fd5acde115d70e3f9dcc55b28737078,Fix typo (#687),['b5d4599a747205b17bbb240ec370a83c4d8a2149'],False,['docs\\api.rst']
+a8a9ec2f29d2fb5227a3d37e7f56005795dd98bf,"Fix custom contexts in fast resolve mode
+
+closes #675",['96f52e6a8fd5acde115d70e3f9dcc55b28737078'],False,"['CHANGES', 'jinja2\\runtime.py', 'tests\\test_regression.py']"
+c8b37d4d1bd6a9377bc0dda8d94e10f9c611c91d,fix unicode for py2,['5de1f1b26b452739e9bb9084814275a7eba3ec2f'],False,['tests\\test_lexnparse.py']
+2e15e52adf0c07028501f64cb8d15f70bf64bce8,"fix random test for py2
+add changelog",['c8636fed17f08fd052ec25c3607f3743812eb049'],False,"['CHANGES', 'tests\\test_filters.py']"
+5ffbf8e5715bb4512b14427ba237b61f484a39c4,fix docs warnings,['5477175dab46fbbd266e5f2ae46cd944002cac9d'],False,"['docs\\extensions.rst', 'docs\\templates.rst', 'jinja2\\lexer.py']"
+68820c39765bb54b548a90746b75484694ad507c,quickly fix py3 tests,['2ffeb693e337828e9955ab1371cf20a81bef0459'],False,['tests\\test_nativetypes.py']
+60a7e775d487c8de9f1b0f23c91ca9845c161fc2,"Fix regression in 2.9 involving unsafe Context.get_all() usage
+
+Since commit d67f0fd4cc2a4af08f51f4466150d49da7798729, callers
+of Context.get_all() need to make a copy it they're going to
+modify the result.
+
+Fixes: d67f0fd4cc2a (""Generalize scoping.  This fixes #603"")",['3f49ba22da84253d11f969e43ac6a1ebbb4524ba'],False,['jinja2\\debug.py']
+4750cf7c69c0ce2a0c44cc68c2fc06b984774e5e,Minor docstring grammar fix (#772),['fc5be479ddb3ffd2687607aada5a53bd5304f060'],False,['jinja2\\environment.py']
+31f92b5947e9dba8ba997dd93921cbf1538bb79f,Fix typo in docstring (#779),['c3147611ec6bbfd8b6e42637c73a68e29de1e2e7'],False,['jinja2\\filters.py']
+78928bffab5b457bb05c41fd677695b6f4200507,Fix typo instanciable > instantiable,['9b255f4c36608455d901ebe75be809df38f03710'],False,['jinja2\\nodes.py']
+fe3dadacdf4cf411d0a5b6bbd4d5234697a28af2,"Merge pull request #787 from SabujXi/patch-1
+
+Fix typo instanciable > instantiable","['9b255f4c36608455d901ebe75be809df38f03710', '78928bffab5b457bb05c41fd677695b6f4200507']",True,[]
+1f60059729fb4a49bfa32780844047b631941669,"fix code block markup
+
+closes #800",['fe3dadacdf4cf411d0a5b6bbd4d5234697a28af2'],False,['docs\\templates.rst']
+989a7db2347d39bd75618dc306c3c83560d83a34,"add changelog
+fix unrelated docs issue",['2c49d14ceca875ae7ae6631bef5b37519137c24e'],False,"['CHANGES.rst', 'docs\\templates.rst']"
+f2e9280f5e5a4e753edb33415f9a16e56b20562a,"Fix typos (#815)
+
+Found via `codespell -q 3` using v1.12.0.dev0",['041b7385c3d50f1701ce68f1f1a7717787c0c06b'],False,"['jinja2\\environment.py', 'jinja2\\filters.py', 'jinja2\\nodes.py', 'jinja2\\sandbox.py', 'jinja2\\utils.py', 'scripts\\pylintrc']"
+a922a5f331b4b4ad2207a58771a2d7d9a487f4d1,Fix typo: apparenlty -> apparently.,['f2e9280f5e5a4e753edb33415f9a16e56b20562a'],False,['jinja2\\sandbox.py']
+3d7cfc844bfc826a325573f550681121051004ea,"Merge pull request #820 from jdufresne/typo
+
+Fix typo: apparenlty -> apparently.","['f2e9280f5e5a4e753edb33415f9a16e56b20562a', 'a922a5f331b4b4ad2207a58771a2d7d9a487f4d1']",True,[]
+bfdc8467d4bf20d61e076a08c045cd8262e6deed,"Fix escaped characters in indent filter
+
+This unescapes after concatenating, to fix a bug introduced in Jinja
+2.10 where lines concatenated contain escaped versions of non-ascii
+characters.",['34b1ab9f6ef25d392b7440eff1f1ffaff007bb6f'],False,['jinja2\\filters.py']
+e937c8a0de02bbbb5f19f9a65e0f2f9a0ffb6446,"Fix cases where filter input is not a Markup type
+
+The previous commit assumes that the filter will always be a Markup
+type, which is not correct.",['bfdc8467d4bf20d61e076a08c045cd8262e6deed'],False,['jinja2\\filters.py']
+50995cb7f9fecdd34cacc2ed1b89d5847aac890f,Fix spelling in docstring,['863558131ca99abb7ba0aa0ebb6777c173b34549'],False,['tests\\test_filters.py']
+5db859c5c3f43d403eaaff3e65b0aa8b2bdc5d13,Apply unesacpe fix when blank is True,['50995cb7f9fecdd34cacc2ed1b89d5847aac890f'],False,['jinja2\\filters.py']
+3bb2ef8b83cd04bcd77361a4d6a86b3bf4f89529,"Merge pull request #826 from terminalmage/issue823
+
+Fix escaped characters in indent filter","['34b1ab9f6ef25d392b7440eff1f1ffaff007bb6f', 'a2f5e2c7972c4d5148c1c75c724e24950d8605bc']",True,[]
+65337f8a78073404bf8d99625c77bafd63b048b2,Fix small typo,['e1e7735c7670166a542ceb1e20ab2ca651cd72ee'],False,['docs\\api.rst']
+06b10ecb1dabc7ec57180b47a254b4a9fe5df9e9,"Merge pull request #840 from nwalsh1995/master
+
+Fix small typo in docs/api.rst","['e1e7735c7670166a542ceb1e20ab2ca651cd72ee', '65337f8a78073404bf8d99625c77bafd63b048b2']",True,[]
+e2f0470fceccb69f913dd9b05b4d1a2de4d687d3,temporarily pin pytest to avoid test bug,['abf6089858bf2f8e1e2b746566ff3679e8eba440'],False,['tox.ini']
+0ece61041fc79ad573b07ada39174a82c6e9428c,"Merge pull request #883 from pallets/pytest
+
+temporarily pin pytest to avoid test bug","['abf6089858bf2f8e1e2b746566ff3679e8eba440', 'e2f0470fceccb69f913dd9b05b4d1a2de4d687d3']",True,[]
+dd05562460825f234bc3d6754bbc30d4d95c2230,Fix ambiguity in include section,['7a6704db55fcd9bbe5a90c3868e03f5a5fcf176a'],False,['docs\\templates.rst']
+11888dcd1aabb85a90ae7e8d2ab2a39378b9a16c,"Merge pull request #914 from greyli/fix-tag-statement-in-docs
+
+[Docs] Fix ambiguity in include section","['7a6704db55fcd9bbe5a90c3868e03f5a5fcf176a', 'dd05562460825f234bc3d6754bbc30d4d95c2230']",True,[]
+f98266115d021727809fb5876136c9142abce505,parser: Fix typo `self.lineno` -> `token.lineno`,['11888dcd1aabb85a90ae7e8d2ab2a39378b9a16c'],False,['jinja2\\parser.py']
+c89351fd451f45874df4c5643823a1bbbe4364d1,"Merge pull request #918 from TGogniashvili/tg.fix-lineno
+
+parser: Fix typo `self.lineno` -> `token.lineno`","['11888dcd1aabb85a90ae7e8d2ab2a39378b9a16c', 'f98266115d021727809fb5876136c9142abce505']",True,[]
+9e410c7b04a91cb296aaaa39788d67bf8491b986,"Fix broken nl2br filter example
+
+This example attempts to handle both Windows-style and Unix-style line endings, but does it wrong; as noted at https://stackoverflow.com/q/12521127/1709587, the regex here will match a single \r\n as if it were a double line-break, which results in all single Windows-style line-breaks getting converted into <p> breaks instead of <br> breaks as intended.
+
+This patch fixes that by applying Alan Moore's proposed fix from https://stackoverflow.com/a/12521544/1709587 of using a negative lookahead so that a \r cannot be counted as a line break if it is followed by a \n (while still allowing the \r\n combination to count as a line break).",['a7f1f528f5e77d5401a96aa326885508245f7c6f'],False,['docs\\api.rst']
+dd6c76599c14f9fc1995404996a5466db4a6b67d,"Merge pull request #929 from ExplodingCabbage/fix-nl2br
+
+Fix broken nl2br filter example","['a7f1f528f5e77d5401a96aa326885508245f7c6f', '9e410c7b04a91cb296aaaa39788d67bf8491b986']",True,[]
+a9d557f6fa2915e7374c081d6b9a3d0b69a7c1f8,Fix typo,['9fe9520f2daa1df6079b188adba758d6e03d6af2'],False,['docs\\api.rst']
+6e08416ce263d3d88cd95079b7c2f8f3bd9bccff,"Merge pull request #943 from RubenGarcia/master
+
+Fix typo","['9fe9520f2daa1df6079b188adba758d6e03d6af2', 'a9d557f6fa2915e7374c081d6b9a3d0b69a7c1f8']",True,[]
+722ee987290036f06e481dafca63c3fb574e4853,"Fix tox docs-html builds
+
+These have been broken for about a month now because of the upgrade
+to Sphinx 2. This upgrade happened automatically because we do not
+have the version pinned.
+
+Luckily this issue appears to only be from having Python 2 syntax in
+the docs script, so making that compatible with Python 3 fixes the
+error and allows the docs to pass.",['c4c4088945a2c12535f539be7f5453b9ca94666c'],False,['docs\\conf.py']
+64b44589fb462f074889b6faeeca9297472b86fd,"Merge pull request #982 from kevin-brown/sphinx-upgrade
+
+Fix tox docs-html builds","['c4c4088945a2c12535f539be7f5453b9ca94666c', '722ee987290036f06e481dafca63c3fb574e4853']",True,[]
+7d00a40465c89bee141ab5a3db545a20e7d30509,Fix lexer being extremely slow on large amounts of whitespace. Fixes #857,['fd89fed7456e755e33ba70674c41be5ab222e193'],False,['jinja2\\lexer.py']
+888dc8d81a03db1fcd76adc4b2e23f9beec39b5d,"Fix use of 'is' operator for comparison
+
+The 'is' operator is not meant to be used for comparisons. It currently working is an implementation detail of CPython.
+CPython 3.8 has added a SyntaxWarning for this.",['e2140487aae1a884afa1f10330d8849cdca62eae'],False,['ext\\inlinegettext.py']
+62ca10664f09548bdfe83830f8447e9cad01650a,docs(filters): fix typo `columwrapper` => `columnwrapper`,['c4813e51ad664bca17773517462610c1578a6850'],False,['jinja2\\filters.py']
+30685be0896119b3d6cd0f3d5baa8a616cfb8e14,"Merge pull request #1004 from myii/patch-1
+
+docs(filters): fix typo `columwrapper` => `columnwrapper`","['c4813e51ad664bca17773517462610c1578a6850', '62ca10664f09548bdfe83830f8447e9cad01650a']",True,[]
+a811d86acca9fd96dabc41b99ff735df73100a7b,"Fix ""duplicate object description of jinja2"" warning
+
+Follow suggestion to use :noindex: for the instance in api.""",['72e55739efa8457b2dc213f7851b75b7f81ba393'],False,['docs\\api.rst']
+4b1cae9c60057533ca207f954566c25b22c67464,Add python 3.7 deprecation warning fix to changelog,['593ee1e481d9534edd65928ac6bae5cfbd2eec14'],False,['CHANGES.rst']
+0f5f2010bb10bb10a7f8ac93d0ba68294f07c413,"Merge pull request #1019 from jbarreneche/backport-python3.7-collections-warning-fix
+
+Backport python3.7 collections warning fix","['4ce2449a4c17e6f2715b6bf04e4dfad1a5926984', '4b1cae9c60057533ca207f954566c25b22c67464']",True,[]
+aae91f42d19523dec6a5c0b12c74f398398b0d10,"Fix typo ""the the""",['7798e7964f147dc490592f57298f721bbc56ed1b'],False,"['jinja2\\filters.py', 'jinja2\\runtime.py']"
+6ffe6cc9707a6fbf729b71eb3a23f15ef3b9c167,"Merge pull request #1021 from jdufresne/the-the
+
+Fix typo ""the the""","['7798e7964f147dc490592f57298f721bbc56ed1b', 'aae91f42d19523dec6a5c0b12c74f398398b0d10']",True,[]
+99f2a6c6e59d080b297db20a48930e67115c96ea,Fix typo,['5b3d0c3d54508ac415897f26c0577db4ea4b0c04'],False,"['jinja2\\bccache.py', 'jinja2\\runtime.py']"
+911df8e7920c33733d279ce29f0dad83cd9c0b1b,Fix line length,['55e4a130756e6204517cfc34aacdc647ddd5b162'],False,['jinja2\\bccache.py']
+719c9f1f69cb13b350de638c71a39776c064b397,"Merge pull request #1031 from minho42/Fix-typo
+
+Fix typo","['5b3d0c3d54508ac415897f26c0577db4ea4b0c04', '911df8e7920c33733d279ce29f0dad83cd9c0b1b']",True,[]
+e74640b5f35891e082ff2ac7fd25284cb3c2f1d2,"Merge pull request #1030 from rillian/PytestUnknownMarkWarning
+
+Fix pytest unknown mark warnings","['94cecd4892a401dfe57387ed1171867335693b07', '6661be089909dc1622f773ac7479700a90c7b271']",True,[]
+219b8a33b1de7f14c1232ce5345e3c884fe3b87a,"Merge pull request #986 from pbjr23/fix-safe-range-memory
+
+Fix memory usage bug in Python 2 by using correct version of range","['e74640b5f35891e082ff2ac7fd25284cb3c2f1d2', '35fcd9fef243b4818aeaaa2d4fdb279e7e0126ac']",True,[]
+0209b0fc62729170e0af0d8114463186d575d4b1,Fix typo,['9a877fa6c7533166d43c57f1d1ca6b6888e64db8'],False,['jinja2\\runtime.py']
+06696563d78e4f925426746d3b05b744804a66f4,fix linkcheck issues,['f77b09d998dffe6b8332f958db970992bd451444'],False,"['CHANGES.rst', 'docs\\api.rst', 'docs\\extensions.rst', 'docs\\faq.rst', 'docs\\integration.rst', 'docs\\intro.rst', 'jinja2\\bccache.py']"
+d601b3f49625356616e2f88ef82e3fe5673ea873,fix tox docs build,['288dd42f57ce26224d692c8d98356dec74443326'],False,['tox.ini']
+3a86ef3d72fdefb149c0c859e6e37035826f3557,"Fix TracebackFrameProxy.set_next() on Python 3.7
+
+Fix issue #1050: fix a crash in TracebackFrameProxy.set_next() on
+Python 3.7 and newer, when Python is build in debug mode.
+
+Since Python 3.7, traceback.tb_next field can be modified: ctypes is
+no longer needed.",['d601b3f49625356616e2f88ef82e3fe5673ea873'],False,"['CHANGES.rst', 'jinja2\\debug.py']"
+72fffe41a2280ebab01745804c517a33f4a6cf08,"Merge pull request #1051 from vstinner/tb_next_py37
+
+Fix TracebackFrameProxy.set_next() on Python 3.7","['d601b3f49625356616e2f88ef82e3fe5673ea873', '3a86ef3d72fdefb149c0c859e6e37035826f3557']",True,[]
+91a404073acac40a7945bf7d584e8b30bc7a08cb,"Fix simple typo: problemtic -> problematic (#1059)
+
+Plus rephrase the comment for greater clarity.",['436f00b7763b8cba14b287b9b8ce88c0e1af6fc9'],False,['jinja2\\runtime.py']
+d7f892c1edab571a1b6612ce5db00c8c360681a0,Fix MANIFEST.in to include renamed license file,['91a404073acac40a7945bf7d584e8b30bc7a08cb'],False,['MANIFEST.in']
+31d48f3e487428fd36ac3f3c613c76c4c79a3e8a,"Merge pull request #1063 from PikachuEXE/fix/manifest
+
+Fix MANIFEST.in to include renamed license file","['91a404073acac40a7945bf7d584e8b30bc7a08cb', 'd7f892c1edab571a1b6612ce5db00c8c360681a0']",True,[]
+d3b976b7f8bf9e99b47feec92bdc00039a6c5c56,"Merge pull request #1000 from EtiennePelletier/fix_deadlock_improve_tests
+
+Fix deadlock in LRUCache and improve test coverage","['71133493b5b47035c9da8971f32a27dcdee1938b', '69d8d9886044c509afed3fed5994a987f99fad42']",True,[]
+218e77d77da08f045672a2e2abb521ba5c73d2a1,Fix typo in setup.py,['0fee409131d58d2912847450717b9312e0a9513d'],False,['setup.py']
+b5adc65c22d27def6feeb8f64966dd260fc069a5,Fix incorrect release date for 2.10.3,['c6a71f9545ad0de5e30eee759a31a187475bcb0f'],False,['CHANGES.rst']
+03ce2ce772997e874e1f1b6f0605b21eb77e02c8,"Merge pull request #1070 from anowlcalledjosh/develop
+
+Fix incorrect release date for 2.10.3","['c6a71f9545ad0de5e30eee759a31a187475bcb0f', 'b5adc65c22d27def6feeb8f64966dd260fc069a5']",True,[]
+8afc7e57c94bca530c0094e3cdbdbd8b4a1a5541,"Fix bug with when using Markup on ChainableUndefined
+
+Wrapping a ChainableUndefined object with Markup causes an
+UndefinedError because Markup thinks that ChainableUndefined has an
+attribute called __html__ and tries to call it.
+
+This commit fixes this by defining a method __html__ that calls
+ChainableUndefined.__str__. We also add a regression test.",['e68d9b870536d1d019b6f26750d4c68a89df25e3'],False,"['jinja2\\runtime.py', 'tests\\test_regression.py']"
+496c81af81ed9ea2aaccc6537338ec1f723cbf5a,"Merge pull request #1047 from lfdebrux/ldeb-bug-chainable_undefined_and_markup
+
+Fix bug with when using Markup on ChainableUndefined","['e68d9b870536d1d019b6f26750d4c68a89df25e3', '8afc7e57c94bca530c0094e3cdbdbd8b4a1a5541']",True,[]
+562e1782ce291aa5773a5a1873b0a6a1336503b6,"Merge pull request #858 from exponea/857-lexer-whitespace-performance
+
+Fix lexer being extremely slow on large amounts of whitespace. Fixes #857","['381d72ace1941e6fc8675b10e4457040988bb2dc', '37249c08101060bf5a4a230e412575aa741989db']",True,[]
+9ca80538d9e9418ae658772516f9b7dfb1e02ccd,fix invalid double extends test,['ca72c5f301d1aa2ce0e75b440dc6364b4a69bbeb'],False,['tests\\test_inheritance.py']
+81b32242e5bdaa226bb8e4e7d67118d717fad005,"Merge pull request #993 from aayushuppal/loop_fix
+
+Fix for Loop properties revindex and revindex0 still wrong in Jinja2 2.10 #794","['468b2df4c1ab7a20591135b0e16c1baec140c995', 'ef1a4c698c1b9f1630519730c8379c0d6987004e']",True,[]
+50f181080aa327e9c3010bd34dd6ede4b7438517,"clean up i18n documentation
+
+explain enabling newstyle
+organize newstyle advantages
+mention escaping percent signs for formatting
+mention marking format parameters as safe
+fix newstyle ref",['91893a47273448b725af63eb19c6edcb57455f5a'],False,"['docs\\extensions.rst', 'docs\\templates.rst', 'jinja2\\ext.py']"
+13ff6c8c1d2ae64c06d4f6fc8666a19485062354,fix(templates.rst): fix typo (`hat` => `that`),['f81c74437e555d43529fd7746307d0dfd577f6c5'],False,['docs\\templates.rst']
+4fe03dafcdf251739e1fa27843d7167a7b2f2031,"Merge pull request #1115 from myii/patch-2
+
+ fix typo in templates.rst, ""hat"" to ""that""","['f81c74437e555d43529fd7746307d0dfd577f6c5', '13ff6c8c1d2ae64c06d4f6fc8666a19485062354']",True,[]
+88023b89489186f852f084181eac730a9259b666,ext/Vim/jinja.vim: fix indent,['4fe03dafcdf251739e1fa27843d7167a7b2f2031'],False,['ext\\Vim\\jinja.vim']
+d31e66c6ba5a9b4e8b610608f1a9bc114c3ec23c,ext/Vim/jinja.vim: fix issues reported by vint,['88023b89489186f852f084181eac730a9259b666'],False,['ext\\Vim\\jinja.vim']
+390556c1a2418dc3d27f555d6926de2618cfe871,minor: fix typo in docstring,['4fe03dafcdf251739e1fa27843d7167a7b2f2031'],False,['jinja2\\environment.py']
+9b125f47d1340817bbcec143edd92155d4d1da7e,"Merge pull request #1123 from blueyed/fix-typo
+
+minor: fix typo in docstring","['4fe03dafcdf251739e1fa27843d7167a7b2f2031', '390556c1a2418dc3d27f555d6926de2618cfe871']",True,[]
+8342180f3913daea28fcd6644a0ba4c69391b189,"Merge pull request #1117 from nvllsvm/fix_exc_pickle
+
+Fix TemplateSyntaxError pickling","['715f357abc1d3966f1059f59d7a0ae5a7b6b5905', 'b23a0dec2da3036310852ac82d25a1b115aa0995']",True,[]
+984997913cc2eb1a00e1b8787c3d3ada5dd359c7,"import Markup from markupsafe, fix flake8 import warnings",['c6d864cf8975415bd4ffee17f29e37f95969c8c9'],False,"['src\\jinja2\\__init__.py', 'src\\jinja2\\asyncsupport.py', 'src\\jinja2\\compiler.py', 'src\\jinja2\\defaults.py', 'src\\jinja2\\environment.py', 'src\\jinja2\\ext.py', 'src\\jinja2\\nodes.py', 'src\\jinja2\\runtime.py', 'src\\jinja2\\sandbox.py']"
+05dee9b87023930f8131cbc0815b56a23e973c3d,Fix attribute access in async code. Fixes #1141,['bbdafe33ce9f47e3cbfb9415619e354349f11243'],False,['src\\jinja2\\compiler.py']
+3d5bfc6109bcc682f5266b118180e8b5fb775ae9,"Merge pull request #1143 from pallets/bugfix/attribute-access
+
+Fix attribute access in async code.","['bbdafe33ce9f47e3cbfb9415619e354349f11243', 'd61c1ea70bfc98eb6a0dc690e2f0a1527fd80f10']",True,[]
+0166b4c8b800de108b60acdf7ccc01a7bcf5f49a,fix formatting,['3915eb5c2a7e2e4d49ebdf0ecb167ea9c21c60b2'],False,['CHANGES.rst']
+1164cc361778a501317529aafa67b1180a4a15cd,fix formatting,['0166b4c8b800de108b60acdf7ccc01a7bcf5f49a'],False,['CHANGES.rst']
+7c1b535c357f484cc43091c5287a6ccd1aa45814,Fix async doc,['dd5a0508c5e938b2660d6b1a74a2af6ff1a65dd5'],False,['docs\\api.rst']
+7c18c21fbf5cbbeec7d5e57b774a7c4adf9562ee,Fix html tag,['45a76a3794a91e6d7077ced88c814a96cc87d5c2'],False,['docs\\templates.rst']
+b3a9df307220fc88c2bde48da5ff837a33faff31,"Merge pull request #1174 from septatrix/patch-1
+
+Fix html tag","['45a76a3794a91e6d7077ced88c814a96cc87d5c2', '7c18c21fbf5cbbeec7d5e57b774a7c4adf9562ee']",True,[]
+77a212bf93933237cd3574fb44368eea2659f9c5,Fix tokens line number calculation when whitespace stripping is used,['07b5c01338bbfc06be9afc80a127a327611d9a6d'],False,"['CHANGES.rst', 'src\\jinja2\\lexer.py', 'tests\\test_lexnparse.py']"
+5f95471a68b527cf47fb8391c661f72171b63cc3,"Merge pull request #1178 from avli/fix-lexer-lineno
+
+Fix tokens line number calculation when whitespace stripping is used","['07b5c01338bbfc06be9afc80a127a327611d9a6d', '77a212bf93933237cd3574fb44368eea2659f9c5']",True,[]
+a524e77eec22589e4e657550233a5c3bcf24d046,Use importlib machinery to fix PEP 451 import hooks,['0a370316c6a4f0d034da5f90df5a671a32a8e376'],False,"['src\\jinja2\\loaders.py', 'tests\\test_loader.py']"
+bff4893d5fb8a26ff38725609547189a897234b0,"Merge pull request #1169 from asottile/pep_451
+
+Use importlib machinery to fix PEP 451 import hooks","['0a370316c6a4f0d034da5f90df5a671a32a8e376', 'c0675781a569b4d54f23ecbfcc6d4730d11ded01']",True,[]
+dbbd082bce92cb21ae3e4f49aa32554e05e5d8fc,"Fix unintended lstrip_blocks behavior. Fixes #1138
+
+Introduced in #858. Tests will follow, also results of performance
+testing.",['4a70cd480f46da7004cc58b14be3b9966652954a'],False,['src\\jinja2\\lexer.py']
+7163513a352cb7eda328fedb2bfcd987510929af,"Add tests for lstrip whitespace behavior fix
+
+Also did peformance tests for the previous fix and saw no measurable
+impact.",['dbbd082bce92cb21ae3e4f49aa32554e05e5d8fc'],False,"['CHANGES.rst', 'tests\\test_lexnparse.py']"
+f1756a3b44a6fd791954bd8d610cd9211d682518,"Merge pull request #1183 from exponea/1138-fix-unintended-lstrip-behavior-change
+
+Fix unintended lstrip_blocks behavior","['4a70cd480f46da7004cc58b14be3b9966652954a', '7163513a352cb7eda328fedb2bfcd987510929af']",True,[]
+9ec465baefe32e305bd4e61da49e6c39360c194e,fix changelog header,['737a4cd41d09878e7e6c584a2062f5853dc30150'],False,['CHANGES.rst']
+9046b77cffd1bb54714aba117a36cefd5cc5a164,fix dependabot config syntax,['b038ec3d916a0b238b688cb048b8803f1af77e12'],False,['.dependabot\\config.yml']
+9b718ed3d26fc2f80ab58f3249b517a65db9cc7b,"Merge pull request #1241 from MLH-Fellowship/macros_with_globals
+
+Fix bug with imported macros and template globals","['5eea6e49e09971f844f7a3b6812c7be167ee04c9', 'cc792d8c918b44c3c6815cced07b0a334a2fed42']",True,[]
+1eca37ba6d55c57f837a2126a5e240fd596f2e6d,"Merge pull request #1303 from gibson042/gh-1279-custom-async-filters
+
+Fix custom async filters","['27c65757b26bb5012df1a5ccab1340cd7d52f139', 'e1d0131a7fda35029f48cac994e1635025f95461']",True,[]
+81911fdb3065f1156d84ca52ee3a257c229ebc59,Update templates.rst to fix small typo (#1327),['1c240154865a7b6034033027e3c2ca8a2fa53fc2'],False,['docs\\templates.rst']
+8d69d20c1d5c7af725417ca588e9c1191d9957bc,"Fix ""If"" example in documentation (#1337)
+
+Fix ""If"" example in documentation",['5f79ba633db0e6f56fc2d13cfc78547495f3d395'],False,['docs\\templates.rst']
+a30f92d246799e7c1620a18d2e65951ee79afe50,fix new formatting issues,['e993a9d48c52449468b39cac59f58d0f37d95e11'],False,"['setup.py', 'src\\jinja2\\parser.py', 'src\\jinja2\\runtime.py', 'src\\jinja2\\utils.py', 'tests\\test_async.py', 'tests\\test_filters.py', 'tests\\test_lexnparse.py']"
+f71f5ebab2e76c5ee6f5f705a2703f3891e762bc,"Merge pull request #1242 from MLH-Fellowship/context-bug
+
+fix bugs with contextfunction and nested loop variables","['94ccd028ef1f3cd9eaec862d6a1d646d02a242bc', 'f524bcce0cf295941fe665cbcb6846e7e9f39df5']",True,[]
+49d5f9788c32033d624ce443f1830871a0c79675,fix bug with cached templates not using new globals,['f71f5ebab2e76c5ee6f5f705a2703f3891e762bc'],False,"['CHANGES.rst', 'src\\jinja2\\environment.py', 'tests\\test_regression.py']"
+40a312e80f4f1b25f201293c3f1a840a1b88191d,"Merge pull request #1244 from MLH-Fellowship/cache-bugs
+
+Fix bug with cached templates not registering new globals","['f71f5ebab2e76c5ee6f5f705a2703f3891e762bc', '49d5f9788c32033d624ce443f1830871a0c79675']",True,[]
+9dae67bcc8dbc389e0ceef12f1fa04352ef75b8e,"Split lines in lexer only by \r\n, \r and \n
+
+Python str.splitlines() splits by more characters[1], which, however,
+causes problems when keeping these special characters in processed
+templates is desirable, i.e. these bug reports: #769, #952, #1313.
+
+The keep_trailing_newlines logic is reworked because splitlines()
+removes them already (so they had to be added), while re.split doesn't
+so they have to be removed.
+
+[1] https://docs.python.org/3/library/stdtypes.html#str.splitlines",['59de6fbde98de6719758b773a77f0559756756b5'],False,"['CHANGES.rst', 'src\\jinja2\\lexer.py', 'tests\\test_regression.py']"
+4abb2a0739195c697751f734d084d76272d12359,"Merge pull request #1366 from mvolfik/fix-unicode-newlines
+
+Fix unicode newlines","['59de6fbde98de6719758b773a77f0559756756b5', '9dae67bcc8dbc389e0ceef12f1fa04352ef75b8e']",True,[]
+da48bb0d2024aa1d673adb3c60dab2819c578691,Fix map documentation,['e45eabccf0424ea9406ba56549b084e7854c5922'],False,['src\\jinja2\\filters.py']
+eaf0cca37baddfdbd065924194a948199186f397,"Merge pull request #1364 from Dreamsorcerer/patch-2
+
+Fix map documentation","['e45eabccf0424ea9406ba56549b084e7854c5922', 'da48bb0d2024aa1d673adb3c60dab2819c578691']",True,[]
+671cbd73fe6bd03b10f8177a1c6f51b8da7c8eff,Fix incorrect docs - line statements have no default,['eaf0cca37baddfdbd065924194a948199186f397'],False,['docs\\templates.rst']
+e802be7520acec0d181ab442922ea11f986c3e4e,"fix Markup subclass
+
+str subclass must override __new__ instead of __init__",['d77a91b1cba05d9dc78d4b03d312fcff3ca91ebb'],False,['src\\jinja2\\utils.py']
+38839c70060299616f00631567d5768c8acd2cba,"Merge pull request #1401 from pallets/deprecated-markup
+
+fix deprecated `Markup` subclass","['d77a91b1cba05d9dc78d4b03d312fcff3ca91ebb', 'e802be7520acec0d181ab442922ea11f986c3e4e']",True,[]
+ba1f27e11b55cb6f6a0fd64a8f3d078369831691,fix py.typed in manifest,['1a3342b27ec09b547cd238ab0fb35c658116f822'],False,['MANIFEST.in']
+53fea337d1b817aa12f5833df745987427e40e6a,"Merge pull request #1414 from pallets/typing-marker
+
+fix py.typed in manifest","['1a3342b27ec09b547cd238ab0fb35c658116f822', 'ba1f27e11b55cb6f6a0fd64a8f3d078369831691']",True,[]
+9f34d2ac8743718bfad9fea23079192eac964e1b,fix typing that wasn't available in Python 3.6.0,['db5fb7971fb37078338ef3c5e54523313ee30653'],False,"['CHANGES.rst', 'src\\jinja2\\bccache.py', 'src\\jinja2\\compiler.py', 'src\\jinja2\\environment.py', 'src\\jinja2\\lexer.py', 'src\\jinja2\\nodes.py', 'src\\jinja2\\parser.py', 'src\\jinja2\\runtime.py', 'src\\jinja2\\utils.py']"
+fb564a84af82cc896c9b1be421a100e256254677,"Merge pull request #1436 from pallets/deprecated-extensions
+
+fix context for deprecated extensions","['426c56032c1d40564acfb21128c19144f6338a9b', 'b4d31e7b8df2cd9f42e6dc28c5f7d82fe8767110']",True,[]
+f562a4fdea7bc10039ffa555367f8891e790ab53,fix deprecated `Markup` subclass,['fb564a84af82cc896c9b1be421a100e256254677'],False,"['CHANGES.rst', 'src\\jinja2\\utils.py']"
+ab7840328f3c6303b4509972f7751e9ab1ee36c7,"Merge pull request #1439 from pallets/deprecated-markup
+
+fix deprecated `Markup` subclass","['55848d36c0a589139e5003a5ad263fce0d95aa2f', 'f562a4fdea7bc10039ffa555367f8891e790ab53']",True,[]
+9f5db9a6d904a26f1dab777427b904a85d418e7a,"Merge pull request #1440 from pallets/deprecated-markup
+
+fix deprecated `Markup` subclass","['fb564a84af82cc896c9b1be421a100e256254677', 'f562a4fdea7bc10039ffa555367f8891e790ab53']",True,[]
+02071b3e5933560f070e3a898f8aa82622d2001e,"Merge pull request #1449 from amy-lei/loop-scoping
+
+fix loop scoping bug","['d4e5112550abd8949b8e787bbd8fd9e56f1bd09b', 'f3bc9c6a915badd3871eb1bc5aae5421d2f6496d']",True,[]
+531145d28b2207f9f7886eebdc2171b13e681018,"Merge pull request #1455 from ewjoachim/undefined-contains-1204
+
+Only StrictUndefined.__contains__ raises error","['189132094135d4c84414404c3b388500d35dc49e', 'd5f49f5cc135f1a78704dba7db8212be2388b50e']",True,[]
+8cc3a64fa6cb90817b4bbe5aaeca87fa73ea9103,Fix typos,['b7d12b6b1597ea5d38de8dac2013749be266edd0'],False,"['CHANGES.rst', 'src\\jinja2\\nodes.py', 'tests\\test_inheritance.py']"
+e01e0a21f9157c5b09ea4131d94393fe347a2c82,"Merge pull request #1509 from kianmeng/fix-typos
+
+Fix typos","['6aa096a67470f92c791353d4cf235cad270df1ed', '8cc3a64fa6cb90817b4bbe5aaeca87fa73ea9103']",True,[]
+e04df6ed8cd6fe25c81066159d482008c93faab6,"Fix little typo in docstring
+
+Fix a little typo in `do_sort` docstring.",['2a48dd898d72f1a119ee923996e70aa43da04ea4'],False,['src\\jinja2\\filters.py']
+1c2afd42cabe333c9a85d5b9f531ece6d67f650d,"Merge pull request #1548 from mabdelaal86/patch-1
+
+Fix little typo in docstring","['2a48dd898d72f1a119ee923996e70aa43da04ea4', 'e04df6ed8cd6fe25c81066159d482008c93faab6']",True,[]
+cdc4f1d0d380398c05a2d4d1641689bdae5d5ba5,fix new mypy findings,['9dcb94fc2d1bd42d18b99d8171b54bcd0299a102'],False,"['setup.cfg', 'src\\jinja2\\compiler.py', 'src\\jinja2\\debug.py', 'src\\jinja2\\environment.py', 'src\\jinja2\\ext.py', 'src\\jinja2\\idtracking.py', 'src\\jinja2\\lexer.py', 'src\\jinja2\\loaders.py', 'src\\jinja2\\parser.py', 'src\\jinja2\\sandbox.py', 'src\\jinja2\\visitor.py', 'tests\\test_async.py']"
+6e4df02773465d7a80c75cad93289d24f70bfa74,Fix formatting in tricks.rst,['3a050b122ed8c7b3b6bf0116cb91bd9d5eac7d8f'],False,['docs\\tricks.rst']
+a2920752fd111c2d52c88eb57487667b3cf0ea7b,"Merge pull request #1620 from janfilips/patch-1
+
+Fix formatting in tricks.rst","['3a050b122ed8c7b3b6bf0116cb91bd9d5eac7d8f', '6e4df02773465d7a80c75cad93289d24f70bfa74']",True,[]
+5d3d2414710c1439105d84efc58e4aba8e453cb3,fix flake8-bugbear finding,['21da8f529888a2144bafd183439d26564c6dc134'],False,['src\\jinja2\\visitor.py']
+746bb95780c17687b27b6d1bf4df1216f0da972c,Fix race conditions in FileSystemBytecodeCache,['466a200ea40642b674db77588d13889abbad55f5'],False,"['CHANGES.rst', 'src\\jinja2\\bccache.py']"
+b802b5a6ad9deea082c16d9adb6417eda1a184d8,"Merge pull request #1655 from dvitek/dvitek/issue1654
+
+Fix Race conditions in FileSystemBytecodeCache","['466a200ea40642b674db77588d13889abbad55f5', '746bb95780c17687b27b6d1bf4df1216f0da972c']",True,[]
+8fec9b4220dfd388d8bd6af043ef59821b06c8db,fix get_template example,['fcefbe74720ad98cee6f495b9c2342acc75cea5b'],False,['docs\\templates.rst']
+e9cb0a5fb58c44cac8ccfb1f86536754c2c0e273,"Merge pull request #1682 from pallets/docs-get_template-example
+
+fix get_template example","['fcefbe74720ad98cee6f495b9c2342acc75cea5b', '8fec9b4220dfd388d8bd6af043ef59821b06c8db']",True,[]
+5e636989f098354ecbe0e6445047cbcc1a03d186,Fix typo in docs/api/#custom-tests,['e9cb0a5fb58c44cac8ccfb1f86536754c2c0e273'],False,['docs\\api.rst']
+4bfc33a2762f007d3fb7e541aadd991ab997df62,"Merge pull request #1685 from sdidier-dev/docs-patch
+
+Fix typo in docs/api/#custom-tests","['e9cb0a5fb58c44cac8ccfb1f86536754c2c0e273', '5e636989f098354ecbe0e6445047cbcc1a03d186']",True,[]
+3ccc61b0bd4f143f34d89fbab8dda7e1c1d524f7,"Update templates.rst
+
+Fix typo",['bf251517c1da7f543ec226906e5a412dcb3003ea'],False,['docs\\templates.rst']
+8ed8e1d0eda956aa0cdc6e216270be3ebcfd4b4a,fix mypy strict findings,['614b045fab971de8b96853dbdd9b9c6c234de32f'],False,"['src\\jinja2\\async_utils.py', 'src\\jinja2\\environment.py', 'src\\jinja2\\filters.py', 'src\\jinja2\\lexer.py', 'src\\jinja2\\loaders.py', 'src\\jinja2\\nodes.py', 'src\\jinja2\\parser.py', 'src\\jinja2\\runtime.py', 'src\\jinja2\\sandbox.py', 'src\\jinja2\\tests.py', 'src\\jinja2\\utils.py']"
+090a5a9e22a7888da93ead324b33b255d106a0c2,fix flake8 bugbear error,['85e5ad85d10eaf119dc0f17f245118c9f78bb864'],False,['scripts\\generate_identifier_pattern.py']
+051df10c7b95b735ee53eeb1e9c8de1eb48ead14,fix check for empty required block (#1858),['37f5b058ee4aaa01994ae4d378fc015bde484933'],False,"['CHANGES.rst', 'src\\jinja2\\parser.py', 'tests\\test_inheritance.py']"
+36f98854c721f98ba103f97f65a8a098da5af0d7,fix pr link,['a0e864ec0ffc9b8684e9155e782405be4b664a64'],False,['CHANGES.rst']
+6fcf46301132c7e8dcd50e4f1138af6c445c5b21,fix mypy findings,['2e8bbca76719a6116ac7f57038843caef6d49eda'],False,['src\\jinja2\\compiler.py']
+1655128cfc0e8b598d5b3f361a3983f82098276b,"test on trio, fix all missing aclose related warnings (#1960)",['079e8312c3ceee54066d2dc887da83867f2db68a'],False,"['CHANGES.rst', 'requirements\\docs.txt', 'requirements\\tests.in', 'requirements\\tests.txt', 'src\\jinja2\\async_utils.py', 'src\\jinja2\\compiler.py', 'src\\jinja2\\environment.py', 'tests\\test_async.py', 'tests\\test_async_filters.py']"
+679af7f816ced8941ed5cf9b151a0cac543d0336,fix test_package_zip_list on 3.13,['e82013c39970c336ed33906b3c38464f1fadbd30'],False,"['src\\jinja2\\loaders.py', 'tests\\test_loader.py']"
+8a8e2bc4d7605a5f717357e4043cde7a0aeacfd7,fix test_package_zip_list on 3.13 (#1979),"['e82013c39970c336ed33906b3c38464f1fadbd30', '679af7f816ced8941ed5cf9b151a0cac543d0336']",True,[]
+d680a959324400487b4f0e8b8119bed7376b7973,Fix nl2br example in documentation (#2054),['ada0a9a6fc265128b46949b5144d2eaa55e6df2c'],False,['docs\\api.rst']
+9c3622c1af8e8e2342c6e7d44de513e2a6c1c441,fix boolean error about whitespace control,['da6729990f172e2275f9f8bb0f3db71b382cec6b'],False,['docs\\templates.rst']
+058e05966283b1bf47d1ff367bc8bfe2bee5bbec,fix boolean error about whitespace control (#1819),"['da6729990f172e2275f9f8bb0f3db71b382cec6b', '9c3622c1af8e8e2342c6e7d44de513e2a6c1c441']",True,[]
+8a90b760a8cb3cff9cd9fe8a7b899405b044244b,fix a typo in docs/templates.rst,['058e05966283b1bf47d1ff367bc8bfe2bee5bbec'],False,['docs\\templates.rst']
+420082efa5f51512378b71addb6a3d4d9c9e8983,fix a typo in docs/templates.rst (#1881),"['058e05966283b1bf47d1ff367bc8bfe2bee5bbec', '8a90b760a8cb3cff9cd9fe8a7b899405b044244b']",True,[]
+7d023e5a8600d0db1e6d11f5434737dbcccfcab6,Fix typo on filter name,['420082efa5f51512378b71addb6a3d4d9c9e8983'],False,['docs\\api.rst']
+619d8eef412d21ab6a9cd70958e1cb171b5d823b,Fix typo on filter name (#1911),"['420082efa5f51512378b71addb6a3d4d9c9e8983', '7d023e5a8600d0db1e6d11f5434737dbcccfcab6']",True,[]
+75f0fbf6cb47b531a9c277139a505b9315864330,fix list comprehension example,['13c42b3aabe57511537e14cf4736a5730b1a8782'],False,['src\\jinja2\\filters.py']
+a12789e7f9c2b38cf08a938b39d4c13f63d1d93a,fix list comprehension example (#2017),"['13c42b3aabe57511537e14cf4736a5730b1a8782', '75f0fbf6cb47b531a9c277139a505b9315864330']",True,[]
+0c0a3d02d1b103120d41f04e3e8a0974504a244c,fix Jinja syntax in example,['3d0a7d7b0ff48e748e436851dbae23d4be0af1ad'],False,['examples\\basic\\test.py']
+13ce60bad8f9edeb175cb0cbd76c760b3dfdac25,fix Jinja syntax in example (#2056),"['3d0a7d7b0ff48e748e436851dbae23d4be0af1ad', '0c0a3d02d1b103120d41f04e3e8a0974504a244c']",True,[]
+3ef3ba885bc7a465b022abfd525d6bb4a1c8dd3c,fix how int filter handles scientific notation (#1984),"['20be10e566a505cc47bdec5fa6ad56d5fbdfb4ae', '2eb4542cbab101910d220229a8f09c94f76c19d1']",True,[]
+7232b8246200155226adb672db8b3ef305cf29da,Fix pickle/copy support for the `missing` singleton,['ba8847a466d0f3ad622502f86e819737a4b9fdc7'],False,"['CHANGES.rst', 'src\\jinja2\\utils.py', 'tests\\test_utils.py']"
+1dc04bccf9384cced4262d7ca7157638b0ebd970,Fix pickle/copy support for the `missing` singleton (#2029),"['ba8847a466d0f3ad622502f86e819737a4b9fdc7', '7232b8246200155226adb672db8b3ef305cf29da']",True,[]
+48b0687e05a5466a91cd5812d604fa37ad0943b4,"Merge commit from fork
+
+fix format string vulnerability","['0871c71d0166152801798c1e59b3b32d3fb7469e', '91a972f5808973cd441f4dc06873b2f8378f30c7']",True,[]
+56a724644b1ad9cb03745c10cca732715cdc79e9,fix f-string syntax error in code generation,['48b0687e05a5466a91cd5812d604fa37ad0943b4'],False,"['CHANGES.rst', 'src\\jinja2\\compiler.py', 'tests\\test_compile.py']"
+767b23617628419ae3709ccfb02f9602ae9fe51f,fix f-string syntax error in code generation (#1852),"['48b0687e05a5466a91cd5812d604fa37ad0943b4', '56a724644b1ad9cb03745c10cca732715cdc79e9']",True,[]
+b4b28ec01c60b8753ab53fe60b10d7dbaa55842b,fix default for `Environment.overlay(enable_async)` (#2061),"['767b23617628419ae3709ccfb02f9602ae9fe51f', 'e45bc745a76b7aa573e68888bf49ecef70001815']",True,[]
+ed5f76206aa0a1e86ef087a18bc69643b484f029,FileSystemLoader includes search paths in error,['b4b28ec01c60b8753ab53fe60b10d7dbaa55842b'],False,"['CHANGES.rst', 'src\\jinja2\\loaders.py']"
+58a358f0928df381c003be244b930367c68dbb85,`FileSystemLoader` include paths in error (#1663),"['b4b28ec01c60b8753ab53fe60b10d7dbaa55842b', '227edfd372f174fdae1ff74972de6a532af6c76e']",True,[]
+f54fa113d38230cd7a8e8de1a8ced0f24e344a4e,"Improve the PackageLoader error message
+
+This exception is raised when the `package_path` directory (default ""templates"") is not
+found, so explain this.",['58a358f0928df381c003be244b930367c68dbb85'],False,['src\\jinja2\\loaders.py']
+53c75915c929eeb8582e70fdee9fc262f5c4ae58,Improve the PackageLoader error message (#1706),"['58a358f0928df381c003be244b930367c68dbb85', 'aaa083d265307f44f00b010acec61b6eb8e3c3a7']",True,[]
+ee832194cd9f55f75e5a51359b709d535efe957f,"Add support for namespaces in tuple assignment
+
+This fixes a bug that existed because namespaces within `{% set %}`
+were treated as a special case. This special case had the side-effect
+of bypassing the code which allows for tuples to be assigned to.
+
+The solution was to make tuple handling (and by extension, primary token
+handling) aware of namespaces so that namespace tokens can be handled
+appropriately. This is handled in a backwards-compatible way which
+ensures that we do not try to parse namespace tokens when we otherwise
+would be expecting to parse out name tokens with attributes.
+
+Namespace instance checks are moved earlier, and deduplicated, so that
+all checks are done before the assignment. Otherwise, the check could be
+emitted in the middle of the tuple.",['1d55cddbb28e433779511f28f13a2d8c4ec45826'],False,"['CHANGES.rst', 'docs\\templates.rst', 'src\\jinja2\\compiler.py', 'src\\jinja2\\parser.py', 'tests\\test_core_tags.py']"
+66587ce989e5a478e0bb165371fa2b9d42b7040f,"Fix bug where set would sometimes fail within if
+
+There was a bug that came as the result of an early optimization done
+within ID tracking that caused loading parameters to fail in a very
+specific and rare edge case. That edge case only occurred when the
+parameter was being set within all 3 standard branches of an if block,
+since the optimization would assume that the parameter was never being
+referenced and was only ever being set. This would cause the variable to
+be set to undefined.
+
+The fix for this was to remove the optimization and still continue to
+load in the parameter even if it is set in all 3 branches.",['fbc3a696c729d177340cc089531de7e2e5b6f065'],False,"['CHANGES.rst', 'src\\jinja2\\idtracking.py', 'tests\\test_regression.py']"
+c8fdce1e0333f1122b244b03a48535fdd7b03d91,Fix bug involving calling set on a template parameter within all branches of an if block (#1665),"['fbc3a696c729d177340cc089531de7e2e5b6f065', '66587ce989e5a478e0bb165371fa2b9d42b7040f']",True,[]
+a3dce7bb64c90adf3d5acd83c7a6b21f2d29a0b0,fix type/lint/format findings,['51dbd8977e876b2aa6d622ef75147973a8cc454c'],False,"['src\\jinja2\\async_utils.py', 'src\\jinja2\\compiler.py', 'src\\jinja2\\debug.py', 'src\\jinja2\\defaults.py', 'src\\jinja2\\environment.py', 'src\\jinja2\\ext.py', 'src\\jinja2\\filters.py', 'src\\jinja2\\idtracking.py', 'src\\jinja2\\lexer.py', 'src\\jinja2\\loaders.py', 'src\\jinja2\\meta.py', 'src\\jinja2\\nodes.py', 'src\\jinja2\\parser.py', 'src\\jinja2\\runtime.py', 'src\\jinja2\\sandbox.py', 'src\\jinja2\\utils.py', 'src\\jinja2\\visitor.py', 'tests\\test_async.py', 'tests\\test_core_tags.py', 'tests\\test_debug.py', 'tests\\test_ext.py', 'tests\\test_filters.py', 'tests\\test_lexnparse.py']"
+ece7c271f3c5df13eb43da3badd6f069e0542f55,fix ruff pyupgrade findings,['0cc6ff9051d6fe527e0d386c775f032ed51032c0'],False,"['src\\jinja2\\async_utils.py', 'src\\jinja2\\bccache.py', 'src\\jinja2\\compiler.py', 'src\\jinja2\\debug.py', 'src\\jinja2\\defaults.py', 'src\\jinja2\\environment.py', 'src\\jinja2\\exceptions.py', 'src\\jinja2\\ext.py', 'src\\jinja2\\filters.py', 'src\\jinja2\\idtracking.py', 'src\\jinja2\\lexer.py', 'src\\jinja2\\loaders.py', 'src\\jinja2\\meta.py', 'src\\jinja2\\nativetypes.py', 'src\\jinja2\\nodes.py', 'src\\jinja2\\optimizer.py', 'src\\jinja2\\parser.py', 'src\\jinja2\\runtime.py', 'src\\jinja2\\sandbox.py', 'src\\jinja2\\utils.py', 'src\\jinja2\\visitor.py']"
+9c11dd65ff93e141560f0e1c7a7c590eef4ee1cc,fix typo,['9e49736ae075fcffb85f731a3fe2c006cf1edca4'],False,['src\\jinja2\\__init__.py']
